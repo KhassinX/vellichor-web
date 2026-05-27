@@ -1,67 +1,99 @@
 ---
 layout: prose
-lang: de
-title: Nutzungsbedingungen
-description: Nutzungsbedingungen für vellichor.khassinx.com. Die Vellichor-App liefert bei Release ihre eigenen AGB mit.
+title: Vellichor — Nutzungsbedingungen
 permalink: /de/legal/terms/
+lang: de
 canonical_en: /legal/terms/
 canonical_es: /es/legal/terms/
-canonical_pt: /pt-BR/legal/terms/
+canonical_pt-BR: /pt-BR/legal/terms/
 canonical_de: /de/legal/terms/
 updated: 2026-05-27
 ---
 
-**Diese Bedingungen gelten ausschließlich für `vellichor.khassinx.com`** — die Marketing-Website. Die Vellichor-App liefert bei Veröffentlichung eigene AGB mit, die die App-Nutzung und etwaige In-App-Käufe regeln.
+# Nutzungsbedingungen
 
-## Annahme
+**Wirksam ab: 2026-05-27**
 
-Mit dem Zugriff auf `vellichor.khassinx.com` stimmen Sie diesen Bedingungen zu. Wenn Sie nicht zustimmen, nutzen Sie die Seite bitte nicht.
+Dies sind die Nutzungsbedingungen für **Vellichor**, eine PDF-Q&A-App für Apple-Plattformen, entwickelt von **KhassinX**.
 
-## Was die Seite ist
+Durch die Installation oder Nutzung von Vellichor stimmen Sie diesen Bedingungen zu. Falls Sie nicht zustimmen, verwenden Sie die App nicht.
 
-`vellichor.khassinx.com` ist die Marketing-Website für **Vellichor**, eine kommende Anwendung von KhassinX. Die Seite beschreibt die App, listet Funktionen und Preise und veröffentlicht Rechts- und Sicherheitshinweise. Sie bietet keine Dienste, Konten, Käufe oder Downloads direkt an — das geschieht nach dem Release im Apple App Store.
+## Die App
 
-## Nutzung der Seite
+Vellichor ist eine iOS-, iPadOS-, macOS- und watchOS-Anwendung, die **Apple Intelligence Foundation Models auf Ihrem Gerät** nutzt, um PDF-Dokumente zusammenzufassen, Fragen zu deren Inhalt zu beantworten und handschriftliche Anmerkungen zu transkribieren.
 
-Sie dürfen die Seite zu persönlichen und informationellen Zwecken durchsuchen. Sie dürfen Links zu öffentlichen Seiten teilen. Sie dürfen kurze Auszüge unter Quellenangabe von Vellichor und KhassinX zitieren.
+Die App wird ausschließlich über den Apple App Store vertrieben. Apples Standard-Endnutzerlizenzvertrag (der „Licensed Application End User License Agreement") gilt zusätzlich für Ihre Nutzung von Vellichor; im Fall eines Konflikts zwischen diesen Bedingungen und Apples EULA hat Apples EULA für die in dessen Geltungsbereich liegenden Belange Vorrang.
+
+## Lizenz
+
+Vellichor gewährt Ihnen eine persönliche, nicht-exklusive, nicht übertragbare Lizenz zur Nutzung der App auf Apple-Geräten, die Sie besitzen oder kontrollieren, gemäß Apples Nutzungsregeln und diesen Bedingungen.
 
 Sie dürfen nicht:
 
-- Wesentliche Teile des Seiteninhalts ohne Erlaubnis reproduzieren oder weiterverbreiten.
-- Automatisierte Systeme verwenden, um die Seite in einem Tempo zu scrapen, das den Host materiell belastet.
-- Versuchen, Sicherheitsgrenzen der Seite oder ihrer Hoster zu umgehen.
-- Vellichor, KhassinX oder die Identität des Studios falsch darstellen.
+- Die App rückentwickeln, dekompilieren oder disassemblieren, außer wo zwingendes Recht dies trotz dieser Einschränkung ausdrücklich erlaubt
+- Eigentumshinweise entfernen oder ändern
+- Die App nutzen, um ein konkurrierendes Produkt zu entwickeln
+- Die App für illegale Zwecke nutzen, einschließlich der Verarbeitung von Dokumenten, auf die Sie keinen rechtmäßigen Zugriff haben
 
-Für Sicherheitsforschung siehe [`/de/security/`](/de/security/). Forschung in gutem Glauben innerhalb dieses Rahmens ist willkommen.
+## Preise
 
-## Marken
+Vellichor bietet:
 
-"Vellichor" und "KhassinX" sind Marken des Studios. Apple, App Store, iPhone, iPad, Apple Watch, Mac, Apple Pencil und verwandte Marken sind Marken von Apple Inc., die hier nur zu beschreibenden Zwecken verwendet werden.
+- **Free-Tier**: begrenzte Bibliotheksgröße, begrenzte tägliche KI-Anfragen, kein Export, keine Apple-Pencil-Anmerkung, eine einzige Plattform
+- **Pro-Freischaltung**: einmaliger In-App-Kauf, hebt die Limits auf, alle Plattformen, Family Sharing aktiviert
 
-## Geistiges Eigentum
+Preise werden in Ihrer Landeswährung im App Store zum Kaufzeitpunkt angezeigt. Käufe werden von Apple abgewickelt; die Zahlungsbedingungen unterliegen Ihrem App-Store-Konto.
 
-Design, Code, Text und grafische Assets der Seite gehören KhassinX. Der Quellcode der Seite liegt in einem öffentlichen GitHub-Repository aus Transparenzgründen und ist nicht zur Weiterverwendung ohne separate schriftliche Erlaubnis lizenziert.
+**Es gibt kein Abonnement.** Die Pro-Freischaltung ist ein Einmalkauf. Wir berechnen keine wiederkehrenden Gebühren. Wir passen Preise nicht rückwirkend für Nutzer an, die bereits gekauft haben.
 
-## Keine Gewährleistung
+Falls Sie mit der App unzufrieden sind, müssen Rückerstattungsanträge bei Apple über Ihr App-Store-Konto eingereicht werden. Wir wickeln Rückerstattungen nicht direkt ab, weil wir keine Zahlungen einziehen.
 
-Die Seite wird "wie sie ist" ohne ausdrückliche oder stillschweigende Gewährleistungen bereitgestellt. Wir gewährleisten nicht, dass die Seite unterbrechungs-, fehler- oder virenfrei ist.
+## Family Sharing
 
-## Haftungsbeschränkung
+Wenn Sie Vellichor Pro kaufen, erhalten Mitglieder Ihrer Apple-Family-Sharing-Gruppe die Pro-Berechtigung auf ihren eigenen Geräten gemäß Apples Family-Sharing-Regeln. Das verwaltet Apple vollständig; wir sehen weder Identitäten der Familienmitglieder noch Gerätezahlen.
 
-Soweit nach geltendem Recht zulässig, haftet KhassinX nicht für mittelbare, beiläufige, Folge- oder Strafschäden aus Ihrer Nutzung der Seite.
+## On-Device-KI und Genauigkeit
 
-## Links zu Dritten
+Vellichor verwendet Apple Intelligence Foundation Models, die auf Ihrem Gerät laufen. Große Sprachmodelle können ungenaue, unvollständige oder irreführende Ausgaben erzeugen. Vellichor mildert dies durch Retrieval-Augmented Generation (RAG) und zitatpflichtige Antworten, aber **Sie bleiben verantwortlich, jede Antwort zu überprüfen, bevor Sie sich für wichtige Entscheidungen darauf verlassen** — rechtlich, medizinisch, finanziell, akademisch oder anders.
 
-Die Seite verlinkt zu Seiten Dritter (Apple App Store, GitHub, das KhassinX-Dach). Diese Seiten haben eigene Bedingungen, und wir sind nicht für deren Inhalte verantwortlich.
+Vellichor ist ein Produktivitätswerkzeug. Es ersetzt keine professionelle Beratung durch qualifizierte Anwälte, Ärztinnen, Steuerberater oder Fachexperten.
 
-## Änderungen
+## Ihre Inhalte
 
-Wir können diese Bedingungen aktualisieren. Wesentliche Änderungen werden im "Last updated"-Datum oben sichtbar. Fortgesetzte Nutzung nach einer Änderung gilt als Zustimmung.
+Vellichor verarbeitet die PDFs, die Sie importieren. Wir erheben keinen Eigentums- oder Lizenzanspruch auf Ihre Dokumente. Sie bleiben Ihre. Details zur Speicherung (lokal auf Ihrem Gerät und in Ihrem persönlichen iCloud) finden Sie in der [Datenschutzerklärung](/de/legal/privacy/).
 
-## Anwendbares Recht
+Sie versichern, dass Sie das Recht haben, jedes PDF zu nutzen, zu importieren und zu verarbeiten, das Sie in Vellichor laden.
 
-Diese Bedingungen unterliegen dem Recht des registrierten Geschäftssitzes des Betreibers in den Vereinigten Staaten. Streitigkeiten werden nach diesem Recht entschieden.
+## Verfügbarkeit des Dienstes
+
+Vellichor ist eine On-Device-App. Für die Kernfunktionalität ist keine Serververbindung erforderlich. Die Website unter `vellichor.khassinx.com` kann gelegentlich aus Wartungs- oder anderen Gründen nicht verfügbar sein; das beeinflusst die App nicht.
+
+Die Verfügbarkeit der Apple Intelligence Foundation Models hängt davon ab, dass Ihr Gerät Apples Hardware- und Software-Anforderungen erfüllt. Wir kontrollieren Apples Eignungsregeln nicht. Wenn Apple Intelligence auf Ihrem Gerät oder in Ihrer Region nicht verfügbar ist, funktionieren Vellichors KI-Funktionen nicht, bis sich das ändert.
+
+## Haftungsausschluss
+
+Die App wird „wie sie ist" ohne Gewährleistungen jeglicher Art bereitgestellt, ausdrücklich oder stillschweigend, einschließlich Gewährleistungen der Marktgängigkeit, Eignung für einen bestimmten Zweck oder Nichtverletzung, im maximal nach geltendem Recht zulässigen Umfang.
+
+Im maximal nach geltendem Recht zulässigen Umfang haftet KhassinX nicht für indirekte, zufällige, besondere, Folge- oder Strafschäden, die aus Ihrer Nutzung der App entstehen.
+
+Nichts in diesen Bedingungen schließt Haftung aus oder begrenzt sie, die gesetzlich nicht ausgeschlossen oder begrenzt werden kann (einschließlich, wo anwendbar, gesetzlicher Verbraucherrechte und Haftung für grobe Fahrlässigkeit oder Vorsatz).
+
+## Beendigung
+
+Sie können die Nutzung von Vellichor jederzeit beenden, indem Sie die App von Ihren Geräten löschen. Wir können die App jederzeit einstellen; in diesem Fall regeln Apples Bedingungen jegliche Rückerstattungsfähigkeit.
+
+Wenn Sie diese Bedingungen verletzen, können wir nach unserem Ermessen die Bereitstellung zukünftiger Dienste oder Versionen ablehnen.
+
+## Geltendes Recht
+
+Diese Bedingungen unterliegen den am Betriebsort von KhassinX geltenden Gesetzen, ohne Bezugnahme auf Kollisionsrecht. Streitigkeiten werden vor den zuständigen Gerichten dieser Jurisdiktion gelöst, außer wo Verbraucherschutzgesetze Ihres Wohnorts Ihnen zwingende Rechte auf einen anderen Gerichtsstand gewähren.
+
+## Änderungen dieser Bedingungen
+
+Wenn wir diese Bedingungen ändern, ersetzt die neue Version die alte unter dieser URL. Die vorherige Version bleibt über die GitHub-Commit-Historie dieser Website zugänglich. Wesentliche Änderungen werden in den App-Versionshinweisen kenntlich gemacht.
 
 ## Kontakt
 
-Fragen: [`legal@khassinx.com`](mailto:legal@khassinx.com).
+- **Allgemein**: [hello@khassinx.com](mailto:hello@khassinx.com)
+- **Rechtliches**: [hello@khassinx.com](mailto:hello@khassinx.com)
+- **Entwickler**: KhassinX

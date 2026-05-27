@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Vellichor">
+  <rect width="64" height="64" rx="14" ry="14" fill="#8B5A3C"/>
+  <text x="32" y="44" text-anchor="middle"
+        font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', system-ui, sans-serif"
+        font-size="38" font-weight="600" fill="#FFFFFF" letter-spacing="-1.5">V</text>
+</svg>

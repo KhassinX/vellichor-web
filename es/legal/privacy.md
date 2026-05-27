@@ -1,54 +1,91 @@
 ---
 layout: prose
-lang: es
-title: Política de privacidad
-description: Política de privacidad para vellichor.khassinx.com y la próxima app Vellichor. Recolección de datos cero por diseño.
+title: Vellichor — Política de Privacidad
 permalink: /es/legal/privacy/
+lang: es
 canonical_en: /legal/privacy/
 canonical_es: /es/legal/privacy/
-canonical_pt: /pt-BR/legal/privacy/
+canonical_pt-BR: /pt-BR/legal/privacy/
 canonical_de: /de/legal/privacy/
 updated: 2026-05-27
 ---
 
-## Resumen
+# Política de Privacidad
 
-No recolectamos datos personales a través de este sitio ni de la app Vellichor. No hay analytics, ni cookies, ni rastreadores de terceros, ni sistema de cuentas. Los PDFs que procesás con Vellichor se leen localmente con los Apple Intelligence Foundation Models on-device — nunca salen de tu dispositivo.
+**Fecha de vigencia: 2026-05-27**
 
-## Sobre este sitio (`vellichor.khassinx.com`)
+Esta es la política de privacidad de **Vellichor**, una app de Q&A sobre PDFs para plataformas Apple desarrollada por **KhassinX**.
 
-El sitio es HTML estático servido desde GitHub Pages con Cloudflare como proxy de red para performance y headers de seguridad.
+La escribimos en lenguaje claro porque queremos que la leas de verdad.
 
-- **Sin analytics.** Sin Google Analytics, sin Plausible, sin Fathom, sin analytics propios.
-- **Sin cookies.** El sitio no setea cookies. Cloudflare puede setear una cookie corta para protección anti-bot; no podemos desactivarla y no te identifica.
-- **Sin scripts de terceros.** Sin embeds sociales, sin chat widgets, sin píxeles publicitarios.
-- **Sin sistema de cuentas.** No hay nada para registrarse en este sitio.
+## La versión corta
 
-**Qué loguean nuestros hosts.** GitHub Pages (el servidor estático) y Cloudflare (el proxy de red) registran metadata HTTP estándar como IP, user-agent, timestamp y URL pedida. No tenemos acceso a analytics a nivel usuario en ninguno. Esos logs se rigen por las políticas de [GitHub](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) y [Cloudflare](https://www.cloudflare.com/privacypolicy/).
+- **No recolectamos, almacenamos ni transmitimos tus PDFs ni tus consultas sobre ellos.** Vellichor ejecuta Apple Intelligence Foundation Models en tu dispositivo.
+- **No tenemos analytics, ni SDKs de tracking, ni servicios de terceros en v1.** Ni Firebase, ni Google Analytics, ni Mixpanel, ni Sentry, ni Crashlytics. Ninguno.
+- **No hay sistema de cuentas.** No tenés que registrarte, no nos das un email, no hay contraseña que olvidar.
+- **Tu biblioteca y anotaciones se sincronizan entre tus dispositivos vía tu propio iCloud.** Apple lo cifra de extremo a extremo; nosotros nunca lo vemos.
+- **Tu compra la verifica Apple, no nosotros.** No guardamos información de pago ni sabemos cuánto pagaste.
 
-## Sobre la app Vellichor (postura pre-lanzamiento)
+## Qué datos maneja Vellichor
 
-La app Vellichor para iOS/iPadOS/macOS/watchOS, cuando se lance, va a seguir estos principios:
+### Documentos (tus PDFs)
 
-- **Los PDFs se procesan en tu dispositivo.** Toda inferencia de modelos de lenguaje usa los Apple Intelligence Foundation Models corriendo localmente. Los PDFs nunca se suben a servidores nuestros; no operamos servidores que reciban tus documentos.
-- **La sincronización usa tu iCloud.** El sync entre dispositivos usa CloudKit Private Database e iCloud Drive bajo tu Apple ID. Los datos viven en tu iCloud — nosotros no accedemos.
-- **Sin telemetría.** Sin frameworks de crash reporting que envíen datos personales, sin event analytics, sin instrumentación de uso. Los reportes de crash estándar de Apple (si optás por enviarlos en Ajustes del sistema) se rigen por la política de Apple.
-- **Privacy Manifest.** El `PrivacyInfo.xcprivacy` de la app va a declarar cero recolección de datos. La nutrition label de App Store va a decir "Data Not Collected" en todas las categorías.
+Vellichor lee los PDFs que importás desde Archivos, Compartir, escaneos con la cámara, drag-and-drop o iCloud Drive. Estos documentos se guardan:
 
-La Política de Privacidad definitiva integrada en la app va a reflejar el comportamiento final al momento de lanzar y se publicará acá.
+- **En tu dispositivo**, dentro del contenedor de aplicación de Vellichor
+- **En tu iCloud Drive personal** bajo la carpeta de Vellichor, si activás sync iCloud (así los mismos documentos aparecen en tus otros dispositivos Apple)
 
-## Contacto por email
+Nosotros — KhassinX — no tenemos acceso a esos documentos en ningún momento. Nunca llegan a un servidor que controlemos. Tampoco llegan a servidores de Apple en forma legible; iCloud Drive usa cifrado de extremo a extremo atado a tu Apple ID.
 
-Si nos escribís a cualquier dirección `@khassinx.com`, recibimos tu mensaje y tu dirección de respuesta a través de nuestro proveedor de email (Proton Mail). Retenemos esa correspondencia para manejar la conversación y eventual follow-up. No te agregamos a ninguna lista de mailing.
+### Las preguntas que hacés y las respuestas que Vellichor genera
+
+Cuando le hacés una pregunta a Vellichor sobre un PDF, esa pregunta la procesa Apple Intelligence Foundation Models corriendo localmente en tu iPhone, iPad o Mac. El modelo produce una respuesta usando el contenido del documento como contexto.
+
+- **La pregunta no sale de tu dispositivo.**
+- **La respuesta no sale de tu dispositivo.**
+- El historial de conversación se guarda en tu dispositivo (y se sincroniza vía tu iCloud personal entre tus dispositivos, si iCloud está activo).
+
+### Anotaciones, highlights y notas
+
+Todo lo que marcás — highlights de texto, notas tipeadas, escritura a mano con Apple Pencil — se guarda en la base privada de CloudKit bajo tu Apple ID. La base privada de CloudKit está cifrada de extremo a extremo; solo tus dispositivos pueden leerla. Nosotros no.
+
+### Estado de suscripción / compra
+
+Vellichor usa **StoreKit 2** (el sistema de compras dentro de la app de Apple) para el desbloqueo Pro de una sola vez. Cuando comprás, Apple confirma la transacción directamente con la App Store de tu dispositivo. No corremos un servidor de pagos, no guardamos información de tarjetas y no conocemos tu nombre real, email ni dirección de facturación. Vía la validación anónima de recibo de Apple, solo podemos saber si una instalación dada compró Pro — nada más.
+
+Family Sharing está soportado: si un miembro de tu familia compró Vellichor Pro, tu dispositivo recibe el entitlement automáticamente vía Apple.
+
+### Reportes de crash y diagnósticos
+
+Si Vellichor se cuelga, el sistema estándar de reporte de fallos de Apple puede incluir un reporte anónimo enviado a Apple **si y solo si optaste por compartir vía Ajustes de iOS → Privacidad y Seguridad → Análisis y mejoras → Compartir con desarrolladores de Apps**. Es un mecanismo de Apple, no nuestro. Recibimos logs de crash agregados, totalmente anónimos, a través de App Store Connect; no contienen contenido de documentos, preguntas, respuestas ni información personal identificable.
+
+Si no optaste por compartir analytics con Apple, no recibimos nada.
+
+## Qué datos Vellichor NO maneja
+
+- **Sin SDKs de analytics.** Ni Firebase Analytics, Google Analytics, Mixpanel, Amplitude, Segment, Sentry, Crashlytics, AppsFlyer, Adjust, Branch, Singular, Kochava, Apphud, RevenueCat ni ninguna otra herramienta de telemetría de terceros. Ninguno.
+- **Sin publicidad.** Sin redes de anuncios, sin píxeles de tracking, sin recolección de IDFA, sin atribución SKAdNetwork.
+- **Sin logins sociales.** Sin "Iniciá sesión con Google", sin SDK de Facebook, sin proveedor de identidad de terceros.
+- **Sin IA externa.** Vellichor solo usa Apple Intelligence en el dispositivo. En v1 no enviamos tu contenido a OpenAI, Anthropic, Google ni a ningún otro proveedor de IA.
+
+## Niños
+
+Vellichor tiene clasificación 4+ y no contiene contenido objetable. No recolectamos datos de niños a sabiendas porque **no recolectamos datos de nadie**.
 
 ## Tus derechos
 
-No nos diste datos personales a través de este sitio, así que no hay nada tuyo que borrar o exportar acá. Si nos escribiste por email, podés pedir que borremos esa correspondencia en cualquier momento.
+Como no recolectamos datos, no hay nada que podamos acceder, corregir, eliminar ni exportar a tu pedido. Por supuesto, podés eliminar la app y (por separado) borrar sus datos de iCloud de tu Apple ID en cualquier momento.
 
-## Cambios
+Si vivís en una jurisdicción con derechos de privacidad específicos (GDPR en la UE/Reino Unido, CCPA en California, LGPD en Brasil, y otros), esos derechos siguen aplicando, pero su efecto práctico sobre Vellichor es mínimo: no somos el controlador de datos sobre nada tuyo.
 
-Podemos actualizar esta política a medida que el sitio o la app evolucionen. Los cambios materiales se reflejan en la fecha "Last updated" arriba.
+## Cambios a esta política
+
+Si alguna vez cambiamos esta política, vamos a actualizar la "Fecha de vigencia" arriba y publicar la nueva versión en esta URL. La versión anterior queda accesible vía el historial de commits de GitHub de este sitio ([khassinx/vellichor-www](https://github.com/khassinx/vellichor-www)).
+
+No vamos a expandir retroactivamente lo que recolectamos. Si una feature futura de Vellichor requiere alguna recolección (por ejemplo, un opt-in opcional de bug-reporting), será opt-in y explícito, y esta política se actualizará antes de que esa feature se publique.
 
 ## Contacto
 
-Preguntas sobre esta política: [`legal@khassinx.com`](mailto:legal@khassinx.com).
+- **Consultas de privacidad**: [hello@khassinx.com](mailto:hello@khassinx.com)
+- **Reportes de seguridad**: [security@khassinx.com](mailto:security@khassinx.com) ([política](/es/security/))
+- **Desarrollador**: KhassinX

@@ -1,58 +1,78 @@
 ---
 layout: base
-lang: es
-title: Seguridad y divulgación responsable
+title: Seguridad y reportes responsables
 description: Cómo reportar vulnerabilidades de seguridad en Vellichor de forma responsable.
 permalink: /es/security/
+lang: es
 canonical_en: /security/
 canonical_es: /es/security/
-canonical_pt: /pt-BR/security/
+canonical_pt-BR: /pt-BR/security/
 canonical_de: /de/security/
 ---
 
 <section class="section">
-  <div class="container container-narrow prose">
-    <h1>Seguridad y divulgación responsable</h1>
+  <div class="container container-narrow">
+    <h1>Seguridad y reportes responsables</h1>
 
-    <p class="lead">La seguridad nos importa. Si encontrás una vulnerabilidad en Vellichor, agradecemos tu ayuda divulgándola de forma responsable.</p>
+    <p class="lead">Vellichor maneja documentos confidenciales — papers de investigación, contratos, historias clínicas, expedientes legales. La seguridad no es una feature para nosotros, es el cimiento. Si encontraste una vulnerabilidad, apreciamos tu ayuda para reportarla de forma responsable.</p>
 
-    <p>Esta página resume la política específica de Vellichor. Para la política del paraguas que cubre todas las apps KhassinX, ver <a href="https://khassinx.com/es/security/">khassinx.com/security</a>.</p>
+    <p>Esta página cubre específicamente a Vellichor. Para la política paraguas que cubre todas las apps e infraestructura de KhassinX, mirá <a href="https://khassinx.com/es/security/">khassinx.com/es/security</a>.</p>
 
     <h2>Reportar</h2>
     <p>
       Email: <a href="mailto:security@khassinx.com">security@khassinx.com</a><br>
-      Puntero machine-readable: <a href="/.well-known/security.txt">/.well-known/security.txt</a> (RFC 9116)
+      Indicador machine-readable de disclosure: <a href="/.well-known/security.txt">/.well-known/security.txt</a> (RFC 9116)
     </p>
+    <p class="text-secondary">Incluí: una descripción breve, pasos de reproducción, el impacto observado y cualquier herramienta o cuenta que hayas usado. No incluyas documentos confidenciales reales en tu reporte — PDFs sintéticos o de dominio público alcanzan para demostrar la mayoría de los issues.</p>
 
-    <h2>En alcance</h2>
+    <h2>Alcance</h2>
     <ul>
       <li><code>vellichor.khassinx.com</code> (este sitio)</li>
-      <li>App Vellichor en la Apple App Store</li>
+      <li>Las apps de Vellichor iOS / iPadOS / watchOS / macOS en la Apple App Store</li>
+      <li>El uso que hace Vellichor de la base privada de CloudKit para sync (el esquema y patrones de acceso, no la infraestructura CloudKit de Apple en sí)</li>
+      <li>El uso que hace Vellichor de los contenedores de iCloud Drive para almacenar PDFs (misma salvedad)</li>
     </ul>
 
     <h2>Fuera de alcance</h2>
     <ul>
-      <li>Servicios de terceros (Apple App Store, Cloudflare, GitHub) — reportar directamente a ellos</li>
+      <li>Servicios de terceros (Apple App Store, Apple iCloud, Apple Intelligence Foundation Models) — reportá directamente a Apple en <a href="https://security.apple.com">security.apple.com</a></li>
       <li>Ataques volumétricos (DDoS, brute force) — no son vulnerabilidades</li>
-      <li>Reportes generados solo por escáneres automáticos sin prueba reproducible de impacto</li>
+      <li>Reportes generados solo por scanners automatizados sin prueba reproducible de impacto</li>
+      <li>Issues teóricos sin un camino de ataque demostrable</li>
+      <li>Email spoofing en subdominios donde publicamos explícitamente SPF/DKIM/DMARC</li>
+      <li>Output de IA inexacto o "alucinado" que no constituye una vulnerabilidad de seguridad (mirá los <a href="/es/legal/terms/">Términos</a> respecto a la precisión de la IA)</li>
     </ul>
 
     <h2>Tiempos de respuesta</h2>
     <ul>
-      <li>Acuse de recibo: dentro de 5 días hábiles</li>
-      <li>Triage inicial: dentro de 14 días</li>
-      <li>Cronograma de divulgación coordinada: acordado caso por caso</li>
+      <li><strong>Acuse de recibo</strong>: dentro de cinco días hábiles</li>
+      <li><strong>Triage inicial</strong>: dentro de catorce días</li>
+      <li><strong>Cronograma coordinado de disclosure</strong>: acordado caso por caso, típicamente noventa días para issues no críticos, acelerado para críticos</li>
     </ul>
 
     <h2>Safe harbor</h2>
-    <p>No iniciamos acciones legales contra investigadores de buena fe — que investigan, reportan y respetan las reglas de alcance. Esto incluye acceder solo a los datos necesarios para demostrar el problema, no exfiltrar datos de usuarios y darnos tiempo razonable para remediar antes de divulgar públicamente.</p>
+    <p>No tomaremos acción legal contra investigadores actuando de buena fe — investigando, reportando y respetando nuestras reglas de alcance. Esto incluye investigadores que accedan solo a los datos necesarios para demostrar el issue, no exfiltren datos de usuarios y nos den tiempo razonable para remediar antes de la divulgación pública.</p>
 
     <h2>Reconocimiento</h2>
-    <p>No ofrecemos bug bounty monetario actualmente. Sí ofrecemos:</p>
+    <p>Actualmente no ofrecemos bug bounty monetario. Ofrecemos:</p>
     <ul>
-      <li>Reconocimiento público (Hall of Thanks)</li>
-      <li>Crédito vitalicio gratis para Vellichor</li>
-      <li>Carta formal de reconocimiento para tu portafolio</li>
+      <li>Reconocimiento público en esta página (con tu consentimiento, en la forma que prefieras)</li>
+      <li>Comunicación directa con el equipo de ingeniería que maneja el fix</li>
+      <li>Crédito formal en las release notes cuando el fix sale</li>
     </ul>
+
+    <h2>Lo que te pedimos evitar</h2>
+    <ul>
+      <li>No accedas, modifiques ni elimines documentos de otros usuarios (no tenemos ninguno en un servidor, pero reproducir issues a nivel CloudKit con cuentas sintéticas está bien)</li>
+      <li>No realices tests que degraden la calidad del servicio para otros usuarios</li>
+      <li>No divulgues públicamente la vulnerabilidad antes de que tengamos una oportunidad razonable de arreglarla</li>
+      <li>No testees en cuentas de usuarios reales sin permiso explícito por escrito</li>
+    </ul>
+
+    <h2>Contacto</h2>
+    <p>
+      Reportes de seguridad: <a href="mailto:security@khassinx.com">security@khassinx.com</a> (clave PGP disponible bajo pedido)<br>
+      Contacto general: <a href="mailto:hello@khassinx.com">hello@khassinx.com</a>
+    </p>
   </div>
 </section>

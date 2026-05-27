@@ -1,0 +1,195 @@
+/*
+ * vellichor-tokens.css — Layer 2 Vellichor brand tokens — Apple-canon + warm brown signature
+ *
+ * Per-app brand for vellichor.khassinx.com. Distinct de Layer 1 KhassinX umbrella
+ * (umbrella es neutral Apple blue) y de Khazen (Apple-canon + teal).
+ *
+ * Source: ~/KhassinX/_template/web/WEB_PROPERTY_SPEC.md §4 (layered brand)
+ * + ~/KhassinX/_template/designs/2026-05-26-vellichor-design.md (brand origin).
+ *
+ * Brand origin: "Vellichor" — John Koenig, Dictionary of Obscure Sorrows (2014):
+ * "the strange wistfulness of used bookstores". The warm brown accent reflects
+ * aged paper / parchment — restrained, scholarly, not loud.
+ *
+ * Strategy: marketing pages Apple-canon light minimalism (Editor's Choice
+ * standard) + restrained warm-brown accent. Apple system colors elsewhere.
+ *
+ * App brand signature:
+ *   - Warm brown CTA   #8B5A3C  (CTAs, links — WCAG AA on white: 5.10:1)
+ *   - Warm brown hover #6B4528  (active state, darker)
+ *   - Parchment soft   #F5EBE0  (subtle backgrounds, hover bg)
+ *   - Warm bright      #C4915C  (vibrant decorative accent)
+ * Mirrors planned `Color.vellichorAccent` family in Vellichor app interior.
+ */
+
+:root {
+  /* ─── Light theme (default — Apple canon) ─── */
+
+  /* Backgrounds (Apple canon) */
+  --vellichor-bg: #FFFFFF;
+  --vellichor-bg-section: #F5F5F7;
+  --vellichor-bg-card: #FBFBFD;
+  --vellichor-bg-elevated: #FFFFFF;
+
+  /* Text (Apple canon — exact apple.com values) */
+  --vellichor-text-primary: #1D1D1F;
+  --vellichor-text-secondary: #6E6E73;
+  --vellichor-text-tertiary: #86868B;
+  --vellichor-text-disabled: #C7C7CC;
+
+  /* Accents — Vellichor warm brown signature (parchment-evoking) */
+  --vellichor-accent: #8B5A3C;            /* CTA/link warm brown (WCAG AA on white: 5.10:1) */
+  --vellichor-accent-strong: #6B4528;     /* Hover/active darker */
+  --vellichor-accent-soft: #F5EBE0;       /* Subtle backgrounds (parchment cream) */
+  --vellichor-accent-bright: #C4915C;     /* Vibrant decorative (warmer aged paper) */
+
+  /* Borders (Apple hairline) */
+  --vellichor-border: #D2D2D7;
+  --vellichor-border-strong: #86868B;
+
+  /* Status (Apple system colors) */
+  --vellichor-success: #34C759;
+  --vellichor-warning: #FF9500;
+  --vellichor-danger: #FF3B30;
+
+  /* ─── Re-bind a Layer 1 token names so primitives.css works ─── */
+  --khassinx-bg: var(--vellichor-bg);
+  --khassinx-bg-section: var(--vellichor-bg-section);
+  --khassinx-bg-card: var(--vellichor-bg-card);
+  --khassinx-bg-elevated: var(--vellichor-bg-elevated);
+  --khassinx-text-primary: var(--vellichor-text-primary);
+  --khassinx-text-secondary: var(--vellichor-text-secondary);
+  --khassinx-text-tertiary: var(--vellichor-text-tertiary);
+  --khassinx-text-disabled: var(--vellichor-text-disabled);
+  --khassinx-accent: var(--vellichor-accent);
+  --khassinx-accent-strong: var(--vellichor-accent-strong);
+  --khassinx-accent-soft: var(--vellichor-accent-soft);
+  --khassinx-border: var(--vellichor-border);
+  --khassinx-border-strong: var(--vellichor-border-strong);
+  --khassinx-success: var(--vellichor-success);
+  --khassinx-warning: var(--vellichor-warning);
+  --khassinx-danger: var(--vellichor-danger);
+
+  /* Spacing scale (Layer 3 — Apple-grade) */
+  --space-xs: 4px;
+  --space-s: 8px;
+  --space-m: 12px;
+  --space-md: 16px;
+  --space-lg: 20px;
+  --space-xl: 24px;
+  --space-2xl: 32px;
+  --space-3xl: 48px;
+  --space-4xl: 64px;
+  --space-5xl: 96px;
+  --space-6xl: 128px;
+  --space-7xl: 160px;
+  --space-8xl: 200px;
+
+  /* Container max-widths (Apple-canonical 980px) */
+  --container-narrow: 640px;
+  --container-default: 980px;
+  --container-wide: 1280px;
+
+  /* Border radius (Apple soft corners) */
+  --radius-s: 6px;
+  --radius-m: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-xl: 22px;
+  --radius-2xl: 28px;
+  --radius-pill: 999px;
+
+  /* Typography (Layer 3 Apple canon) */
+  --font-stack: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "SF Mono", Menlo, Consolas, monospace;
+
+  --fs-display-xl: 80px;
+  --fs-display-l: 56px;
+  --fs-display-m: 40px;
+  --fs-display-s: 32px;
+  --fs-h1: 48px;
+  --fs-h2: 32px;
+  --fs-h3: 24px;
+  --fs-h4: 19px;
+  --fs-body-l: 19px;
+  --fs-body: 17px;
+  --fs-body-s: 15px;
+  --fs-caption: 13px;
+  --fs-micro: 11px;
+
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+
+  --lh-display: 1.05;
+  --lh-heading: 1.1;
+  --lh-body: 1.47;
+  --lh-tight: 1.2;
+
+  --ls-display: -0.025em;
+  --ls-heading: -0.02em;
+  --ls-body: -0.005em;
+  --ls-caps: 0.05em;
+
+  /* Shadows (Apple-canonical subtle) */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.04);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.08);
+
+  /* Transitions (Apple-canonical 200-300ms ease) */
+  --transition-fast: 150ms ease;
+  --transition-base: 250ms ease;
+  --transition-slow: 400ms ease;
+}
+
+/* ─── Dark theme (auto via prefers-color-scheme) ─── */
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Backgrounds (Apple OLED-optimized) */
+    --vellichor-bg: #000000;
+    --vellichor-bg-section: #1D1D1F;
+    --vellichor-bg-card: #1D1D1F;
+    --vellichor-bg-elevated: #2C2C2E;
+
+    /* Text (Apple canon dark) */
+    --vellichor-text-primary: #F5F5F7;
+    --vellichor-text-secondary: #A1A1A6;
+    --vellichor-text-tertiary: #8E8E93;
+    --vellichor-text-disabled: #48484A;
+
+    /* Accents — Warm brown brightened for dark mode legibility */
+    --vellichor-accent: #D4A57A;            /* Brighter warm CTA on black (WCAG AA dark: ~7.8:1) */
+    --vellichor-accent-strong: #C4915C;     /* Hover slightly darker but still vibrant */
+    --vellichor-accent-soft: #2A1F15;       /* Subtle backgrounds (deep brown) */
+    --vellichor-accent-bright: #E5C5A0;     /* Vibrant decorative */
+
+    /* Borders (Apple dark hairline) */
+    --vellichor-border: #38383A;
+    --vellichor-border-strong: #48484A;
+
+    /* Status (Apple system colors dark) */
+    --vellichor-success: #30D158;
+    --vellichor-warning: #FF9F0A;
+    --vellichor-danger: #FF453A;
+
+    /* Re-bind a Layer 1 names */
+    --khassinx-bg: var(--vellichor-bg);
+    --khassinx-bg-section: var(--vellichor-bg-section);
+    --khassinx-bg-card: var(--vellichor-bg-card);
+    --khassinx-bg-elevated: var(--vellichor-bg-elevated);
+    --khassinx-text-primary: var(--vellichor-text-primary);
+    --khassinx-text-secondary: var(--vellichor-text-secondary);
+    --khassinx-text-tertiary: var(--vellichor-text-tertiary);
+    --khassinx-text-disabled: var(--vellichor-text-disabled);
+    --khassinx-accent: var(--vellichor-accent);
+    --khassinx-accent-strong: var(--vellichor-accent-strong);
+    --khassinx-accent-soft: var(--vellichor-accent-soft);
+    --khassinx-border: var(--vellichor-border);
+    --khassinx-border-strong: var(--vellichor-border-strong);
+    --khassinx-success: var(--vellichor-success);
+    --khassinx-warning: var(--vellichor-warning);
+    --khassinx-danger: var(--vellichor-danger);
+  }
+}

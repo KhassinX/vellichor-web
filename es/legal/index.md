@@ -1,28 +1,35 @@
 ---
 layout: prose
-lang: es
-title: Información legal
-description: Privacidad y términos para vellichor.khassinx.com. La app Vellichor incluirá documentos legales propios al lanzar.
+title: Vellichor — Legal
 permalink: /es/legal/
+lang: es
 canonical_en: /legal/
 canonical_es: /es/legal/
-canonical_pt: /pt-BR/legal/
+canonical_pt-BR: /pt-BR/legal/
 canonical_de: /de/legal/
 updated: 2026-05-27
 ---
 
-Esta página agrupa los documentos legales del sitio **vellichor.khassinx.com** — la web de marketing de la app Vellichor.
+# Legal
 
-## Documentos
+Documentos legales públicos de **Vellichor**.
 
-- [Política de privacidad](/es/legal/privacy/) — qué datos recolecta el sitio (esencialmente ninguno) y la postura de privacidad de Vellichor antes del lanzamiento
-- [Términos de uso](/es/legal/terms/) — términos que rigen el uso de este sitio
+- **[Política de Privacidad](/es/legal/privacy/)** — qué datos maneja Vellichor y cómo (spoiler: ninguno nuestro)
+- **[Términos de uso](/es/legal/terms/)** — términos para usar la app y su desbloqueo de pago único
+- **[Seguridad y reportes responsables](/es/security/)** — cómo reportar vulnerabilidades
 
-## Legal integrado en la app
-
-Cuando Vellichor llegue a la App Store, la app incluirá su propia Política de Privacidad y sus Términos de Servicio, que regulan el uso de la app, las compras integradas y Family Sharing. Esos documentos también se enlazarán desde la ficha de App Store y desde esta página.
+---
 
 ## Contacto
 
-- Legal: [`legal@khassinx.com`](mailto:legal@khassinx.com)
-- Seguridad: [`/es/security/`](/es/security/) o [`security@khassinx.com`](mailto:security@khassinx.com)
+- **Desarrollador**: KhassinX
+- **General**: [hello@khassinx.com](mailto:hello@khassinx.com)
+- **Prensa**: [press@khassinx.com](mailto:press@khassinx.com)
+- **Seguridad**: [security@khassinx.com](mailto:security@khassinx.com) ([política de disclosure](https://khassinx.com/es/security/))
+- **Privacidad**: [hello@khassinx.com](mailto:hello@khassinx.com)
+
+## Licencia
+
+Estos documentos legales están publicados bajo **CC0 1.0** (dedicación al dominio público) — podés adaptarlos para tus propias apps de IA on-device. Reflejan una arquitectura de cero recolección y compra única que tal vez no se ajuste a apps con otras prácticas de datos.
+
+La app Vellichor en sí es **propietaria** y no está cubierta por esta dedicación CC0.

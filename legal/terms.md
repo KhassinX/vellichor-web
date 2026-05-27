@@ -1,67 +1,101 @@
 ---
 layout: prose
-lang: en
-title: Terms of Use
-description: Terms governing your use of vellichor.khassinx.com. The Vellichor app will bundle its own Terms of Service at launch.
+title: Vellichor — Terms of Use
 permalink: /legal/terms/
+lang: en
 canonical_en: /legal/terms/
 canonical_es: /es/legal/terms/
-canonical_pt: /pt-BR/legal/terms/
+canonical_pt-BR: /pt-BR/legal/terms/
 canonical_de: /de/legal/terms/
 updated: 2026-05-27
+redirect_from:
+  - /terms/
 ---
 
-**These terms cover `vellichor.khassinx.com` only** — the marketing website. The Vellichor app, when it ships, will bundle its own Terms of Service governing app use and any in-app purchases.
+# Terms of Use
 
-## Acceptance
+**Effective date: 2026-05-27**
 
-By accessing `vellichor.khassinx.com`, you agree to these terms. If you do not agree, please do not use the site.
+These are the terms for using **Vellichor**, a PDF Q&A app for Apple platforms built by **KhassinX**.
 
-## What the site is
+By installing or using Vellichor, you agree to these terms. If you do not agree, do not use the app.
 
-`vellichor.khassinx.com` is the marketing website for **Vellichor**, a forthcoming application by KhassinX. The site describes the app, lists features and pricing, and provides legal and security disclosures. It does not provide services, accounts, purchases, or downloads directly — those happen on the Apple App Store after launch.
+## The app
 
-## Use of the site
+Vellichor is an iOS, iPadOS, macOS, and watchOS application that uses **Apple Intelligence Foundation Models on your device** to summarize PDF documents, answer questions about their content, and transcribe handwritten annotations.
 
-You may browse the site for personal and informational purposes. You may share links to public pages. You may quote short excerpts with attribution to Vellichor and KhassinX.
+The app is distributed exclusively through the Apple App Store. Apple's standard end-user license agreement (the "Licensed Application End User License Agreement") also applies to your use of Vellichor; in case of conflict between these terms and Apple's EULA, Apple's EULA prevails for matters within its scope.
+
+## License
+
+Vellichor grants you a personal, non-exclusive, non-transferable license to use the app on Apple devices that you own or control, in accordance with Apple's usage rules and these terms.
 
 You may not:
 
-- Reproduce or redistribute substantial portions of the site's content without permission.
-- Use automated systems to scrape the site at a rate that materially burdens the host.
-- Attempt to bypass the security boundaries of the site or its hosts.
-- Misrepresent Vellichor, KhassinX, or the studio's identity.
+- Reverse-engineer, decompile, or disassemble the app, except where applicable law expressly permits despite this restriction
+- Remove or alter any proprietary notices
+- Use the app to develop a competing product
+- Use the app for any unlawful purpose, including processing documents you have no legal right to access
 
-For security research, see [`/security/`](/security/). Good-faith research within that scope is welcome.
+## Pricing
 
-## Trademarks
+Vellichor offers:
 
-"Vellichor" and "KhassinX" are trademarks of the studio. Apple, App Store, iPhone, iPad, Apple Watch, Mac, Apple Pencil, and related marks are trademarks of Apple Inc. used here for descriptive purposes only.
+- **Free tier**: limited library size, limited daily AI queries, no export, no Apple Pencil annotation, single platform
+- **Pro unlock**: one-time in-app purchase, removes the limits, all platforms, Family Sharing enabled
 
-## Intellectual property
+Prices are shown in your local currency in the App Store at purchase time. Purchases are processed by Apple; payment terms are governed by your App Store account.
 
-The site's design, code, text, and graphic assets are owned by KhassinX. The source code for the site is in a public GitHub repository; the source is provided for transparency and is not licensed for reuse without separate written permission.
+**There is no subscription.** The Pro unlock is a one-time purchase. We do not bill recurring charges. We do not adjust pricing retroactively for users who have already purchased.
 
-## No warranty
+If you are dissatisfied with the app, refund requests must be submitted to Apple through your App Store account. We do not process refunds directly because we do not collect payment.
 
-The site is provided "as is" without warranties of any kind, express or implied. We do not warrant that the site will be uninterrupted, error-free, or virus-free.
+## Family Sharing
 
-## Limitation of liability
+If you purchase Vellichor Pro, members of your Apple Family Sharing group receive the Pro entitlement on their own devices, in accordance with Apple's Family Sharing rules. This is handled entirely by Apple; we do not see family member identities or device counts.
 
-To the extent permitted by applicable law, KhassinX is not liable for any indirect, incidental, consequential, or punitive damages arising from your use of the site.
+## On-device AI and accuracy
 
-## Third-party links
+Vellichor uses Apple Intelligence Foundation Models running on your device. Large language models can produce inaccurate, incomplete, or misleading output. Vellichor mitigates this with retrieval-augmented generation (RAG) and citation-required answers, but **you remain responsible for verifying any answer before relying on it for important decisions** — legal, medical, financial, academic, or otherwise.
 
-The site links to third-party sites (Apple App Store, GitHub, the KhassinX umbrella). Those sites have their own terms and we are not responsible for their content.
+Vellichor is a productivity tool. It is not a substitute for professional advice from a qualified lawyer, doctor, accountant, or domain expert.
 
-## Changes
+## Your content
 
-We may update these terms. Material changes will be reflected in the "Last updated" date at the top. Continued use after a change indicates acceptance.
+Vellichor processes the PDFs you import. We make no claim of ownership or license over your documents. They remain yours. See the [Privacy Policy](/legal/privacy/) for details on how they are stored (locally on your device and in your personal iCloud).
+
+You represent that you have the right to use, import, and process any PDF you load into Vellichor.
+
+## Service availability
+
+Vellichor is an on-device app. There is no required server connection for core functionality. The website at `vellichor.khassinx.com` may occasionally be unavailable for maintenance or other reasons; this does not affect the app.
+
+Apple Intelligence Foundation Models availability depends on your device meeting Apple's hardware and software requirements. We do not control Apple's eligibility rules. If Apple Intelligence is not available on your device or in your region, Vellichor's AI features will not function until that changes.
+
+## Disclaimers
+
+The app is provided "as is" without warranties of any kind, express or implied, including warranties of merchantability, fitness for a particular purpose, or non-infringement, to the maximum extent permitted by applicable law.
+
+To the maximum extent permitted by applicable law, KhassinX is not liable for indirect, incidental, special, consequential, or punitive damages arising from your use of the app.
+
+Nothing in these terms excludes or limits liability that cannot be excluded or limited by law (including, where applicable, statutory consumer rights and liability for gross negligence or wilful misconduct).
+
+## Termination
+
+You may stop using Vellichor at any time by deleting it from your devices. We may discontinue the app at any time; if we do, Apple's terms govern any refund eligibility.
+
+If you violate these terms, we may, at our discretion, refuse to provide future services or releases.
 
 ## Governing law
 
-These terms are governed by the laws of the operator's registered place of business in the United States. Disputes will be resolved under those laws.
+These terms are governed by the laws applicable to KhassinX's place of operation, without reference to conflict-of-law principles. Disputes will be resolved in the competent courts of that jurisdiction, except where consumer protection laws of your residence give you mandatory rights to a different venue.
+
+## Changes to these terms
+
+If we change these terms, the new version replaces the old at this URL. The previous version remains accessible via the GitHub commit history of this site. Material changes will be flagged in the app's release notes.
 
 ## Contact
 
-Questions: [`legal@khassinx.com`](mailto:legal@khassinx.com).
+- **General**: [hello@khassinx.com](mailto:hello@khassinx.com)
+- **Legal**: [hello@khassinx.com](mailto:hello@khassinx.com)
+- **Developer**: KhassinX

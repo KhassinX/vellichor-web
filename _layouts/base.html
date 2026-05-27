@@ -4,16 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  {%- comment -%}
-    CSP fallback via meta http-equiv. Real headers vienen de Cloudflare Transform Rules.
-  {%- endcomment -%}
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'">
-
   <title>{% if page.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{{ page.description | default: site.description }}">
 
-  <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
-  <meta name="theme-color" content="#FFFFFF" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0E0E11" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#FAFAF7" media="(prefers-color-scheme: light)">
 
   <meta property="og:title" content="{% if page.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}">
   <meta property="og:description" content="{{ page.description | default: site.description }}">
@@ -22,54 +17,62 @@
 
   <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 
-  {%- comment -%} hreflang alternates per WEB_PROPERTY_SPEC §7.5 {%- endcomment -%}
-  {% if page.canonical_en %}<link rel="alternate" hreflang="en"        href="{{ site.url }}{{ page.canonical_en }}">{% endif %}
-  {% if page.canonical_es %}<link rel="alternate" hreflang="es"        href="{{ site.url }}{{ page.canonical_es }}">{% endif %}
-  {% if page.canonical_pt %}<link rel="alternate" hreflang="pt-BR"     href="{{ site.url }}{{ page.canonical_pt }}">{% endif %}
-  {% if page.canonical_de %}<link rel="alternate" hreflang="de"        href="{{ site.url }}{{ page.canonical_de }}">{% endif %}
+  {%- comment -%} hreflang for locale alternates (see WEB_PROPERTY_SPEC.md §7.5) {%- endcomment -%}
+  {% if page.canonical_en %}<link rel="alternate" hreflang="en" href="{{ site.url }}{{ page.canonical_en }}">{% endif %}
+  {% if page.canonical_es %}<link rel="alternate" hreflang="es" href="{{ site.url }}{{ page.canonical_es }}">{% endif %}
+  {% assign canonical_ptbr = page['canonical_pt-BR'] %}{% if canonical_ptbr %}<link rel="alternate" hreflang="pt-BR" href="{{ site.url }}{{ canonical_ptbr }}">{% endif %}
+  {% if page.canonical_de %}<link rel="alternate" hreflang="de" href="{{ site.url }}{{ page.canonical_de }}">{% endif %}
   {% if page.canonical_en %}<link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ page.canonical_en }}">{% endif %}
 
-  {% if site.favicon_svg %}<link rel="icon" type="image/svg+xml" href="{{ site.favicon_svg | relative_url }}">{% endif %}
-  {% if site.apple_touch_icon %}<link rel="apple-touch-icon" sizes="180x180" href="{{ site.apple_touch_icon | relative_url }}">{% endif %}
-  {% if site.favicon_32 %}<link rel="icon" type="image/png" sizes="32x32" href="{{ site.favicon_32 | relative_url }}">{% endif %}
-  {% if site.favicon_16 %}<link rel="icon" type="image/png" sizes="16x16" href="{{ site.favicon_16 | relative_url }}">{% endif %}
+  {%- comment -%}
+    CSP fallback via meta http-equiv. Real headers vienen de CF Transform Rules.
+  {%- endcomment -%}
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'">
+
+  {% if site.favicon_svg %}<link rel="icon" type="image/svg+xml" href="{{ site.favicon_svg }}">{% endif %}
+  {% if site.favicon_32 %}<link rel="icon" type="image/png" sizes="32x32" href="{{ site.favicon_32 }}">{% endif %}
+  {% if site.favicon_16 %}<link rel="icon" type="image/png" sizes="16x16" href="{{ site.favicon_16 }}">{% endif %}
+  {% if site.apple_touch_icon %}<link rel="apple-touch-icon" sizes="180x180" href="{{ site.apple_touch_icon }}">{% endif %}
 
   {% comment %}
-    CSS loading order (per WEB_PROPERTY_SPEC §2 + brand layers):
-    Layer 1 (umbrella tokens) optional → Layer 3 (primitives, uses Layer 1 names)
-    → Layer 2 (per-app tokens, rebinds Layer 1 names a app palette).
-    Per-app sites: set site.umbrella_tokens = false + provide site.app_tokens_css.
-    Vellichor v1: hereda umbrella verbatim (umbrella_tokens: true), sin Layer 2 propio.
+    CSS loading order matters: Layer 1 (umbrella tokens) optional → Layer 3 (primitives,
+    uses Layer 1 token names) → Layer 2 (per-app tokens, rebinds Layer 1 names to app palette).
+    For per-app sites: skip Layer 1 (set site.umbrella_tokens = false). For umbrella sites
+    (apex khassinx.com): include Layer 1 (set site.umbrella_tokens = true).
   {% endcomment %}
   {% if site.umbrella_tokens %}<link rel="stylesheet" href="{{ '/assets/css/tokens.css' | relative_url }}">{% endif %}
   <link rel="stylesheet" href="{{ '/assets/css/primitives.css' | relative_url }}">
   {% if site.app_tokens_css %}<link rel="stylesheet" href="{{ site.app_tokens_css | relative_url }}">{% endif %}
-
-  {% seo %}
+  {% if page.extra_css %}{% for css in page.extra_css %}<link rel="stylesheet" href="{{ css | relative_url }}">{% endfor %}{% endif %}
 </head>
 <body>
   {%- comment -%}
     Locale-aware navigation:
-    - lang_key resuelve al locale (en/es/pt-BR/de), fallback a 'en'
-    - site.nav y site.footer_nav están keyed por locale (en _config.yml)
+    - lang_key resuelve a 'en', 'es', 'pt-BR' o 'de' (fallback a 'en')
+    - site.nav y site.footer_nav están keyed por locale
     - site.ui_strings provee strings cortos (skip link, "Part of ecosystem")
     - logo_home apunta al home del locale actual
   {%- endcomment -%}
-  {%- assign lang_key = page.lang | default: site.lang | default: 'en' -%}
+  {%- assign lang_key = page.lang | default: 'en' -%}
   {%- assign nav_items = site.nav[lang_key] | default: site.nav.en -%}
   {%- assign footer_items = site.footer_nav[lang_key] | default: site.footer_nav.en -%}
   {%- assign ui = site.ui_strings[lang_key] | default: site.ui_strings.en -%}
-  {%- if lang_key == 'en' -%}
-    {%- assign logo_home = '/' -%}
+  {%- if lang_key == 'es' -%}
+    {%- assign logo_home = '/es/' -%}
+  {%- elsif lang_key == 'pt-BR' -%}
+    {%- assign logo_home = '/pt-BR/' -%}
+  {%- elsif lang_key == 'de' -%}
+    {%- assign logo_home = '/de/' -%}
   {%- else -%}
-    {%- assign logo_home = '/' | append: lang_key | append: '/' -%}
+    {%- assign logo_home = '/' -%}
   {%- endif -%}
 
-  <a href="#main" class="skip-link">{{ ui.skip_to_main | default: 'Skip to main content' }}</a>
+  <a href="#main" class="skip-link">{{ ui.skip_to_main }}</a>
 
   <header class="site-header">
     <div class="container">
       <a href="{{ logo_home | relative_url }}" class="logo">
+        {% if site.logo %}<img src="{{ site.logo | relative_url }}" alt="{{ site.title }} logo">{% endif %}
         <span>{{ site.title }}</span>
       </a>
       <nav class="site-nav" aria-label="Primary">
@@ -87,34 +90,49 @@
   <footer class="site-footer">
     <div class="container">
       <div>© {{ 'now' | date: '%Y' }} KhassinX</div>
-
       <nav aria-label="Footer">
         {% for item in footer_items %}
           <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
         {% endfor %}
       </nav>
-
-      <small>
-        {{ ui.part_of_ecosystem_prefix | default: 'Part of the' }}
-        <a href="{{ ui.ecosystem_url | default: 'https://khassinx.com' }}">{{ ui.part_of_ecosystem_label | default: 'KhassinX ecosystem' }}</a>.
-      </small>
-
-      <div class="locale-switcher" aria-label="Language">
-        {% assign locales = "en,es,pt-BR,de" | split: "," %}
-        {% for l in locales %}
-          {% if l == lang_key %}
-            <span aria-current="true">{{ l | upcase }}</span>
-          {% else %}
-            {% case l %}
-              {% when 'en' %}{% assign target = page.canonical_en | default: '/' %}
-              {% when 'es' %}{% assign target = page.canonical_es | default: '/es/' %}
-              {% when 'pt-BR' %}{% assign target = page.canonical_pt | default: '/pt-BR/' %}
-              {% when 'de' %}{% assign target = page.canonical_de | default: '/de/' %}
-            {% endcase %}
-            <a href="{{ target | relative_url }}" hreflang="{{ l }}">{{ l | upcase }}</a>
-          {% endif %}
-        {% endfor %}
+      <div class="locale-switcher" aria-label="Language selector">
+        {%- assign sw_canonical_ptbr = page['canonical_pt-BR'] | default: '/pt-BR/' -%}
+        {%- assign sw_canonical_de = page.canonical_de | default: '/de/' -%}
+        {%- if lang_key == 'es' -%}
+          <a href="{{ page.canonical_en | default: '/' | relative_url }}" hreflang="en" lang="en">EN</a>
+          <span aria-hidden="true">·</span>
+          <span aria-current="true" lang="es">ES</span>
+          <span aria-hidden="true">·</span>
+          <a href="{{ sw_canonical_ptbr | relative_url }}" hreflang="pt-BR" lang="pt-BR">PT-BR</a>
+          <span aria-hidden="true">·</span>
+          <a href="{{ sw_canonical_de | relative_url }}" hreflang="de" lang="de">DE</a>
+        {%- elsif lang_key == 'pt-BR' -%}
+          <a href="{{ page.canonical_en | default: '/' | relative_url }}" hreflang="en" lang="en">EN</a>
+          <span aria-hidden="true">·</span>
+          <a href="{{ page.canonical_es | default: '/es/' | relative_url }}" hreflang="es" lang="es">ES</a>
+          <span aria-hidden="true">·</span>
+          <span aria-current="true" lang="pt-BR">PT-BR</span>
+          <span aria-hidden="true">·</span>
+          <a href="{{ sw_canonical_de | relative_url }}" hreflang="de" lang="de">DE</a>
+        {%- elsif lang_key == 'de' -%}
+          <a href="{{ page.canonical_en | default: '/' | relative_url }}" hreflang="en" lang="en">EN</a>
+          <span aria-hidden="true">·</span>
+          <a href="{{ page.canonical_es | default: '/es/' | relative_url }}" hreflang="es" lang="es">ES</a>
+          <span aria-hidden="true">·</span>
+          <a href="{{ sw_canonical_ptbr | relative_url }}" hreflang="pt-BR" lang="pt-BR">PT-BR</a>
+          <span aria-hidden="true">·</span>
+          <span aria-current="true" lang="de">DE</span>
+        {%- else -%}
+          <span aria-current="true" lang="en">EN</span>
+          <span aria-hidden="true">·</span>
+          <a href="{{ page.canonical_es | default: '/es/' | relative_url }}" hreflang="es" lang="es">ES</a>
+          <span aria-hidden="true">·</span>
+          <a href="{{ sw_canonical_ptbr | relative_url }}" hreflang="pt-BR" lang="pt-BR">PT-BR</a>
+          <span aria-hidden="true">·</span>
+          <a href="{{ sw_canonical_de | relative_url }}" hreflang="de" lang="de">DE</a>
+        {%- endif -%}
       </div>
+      <small>{{ ui.part_of_ecosystem_prefix }} <a href="{{ ui.ecosystem_url }}">{{ ui.part_of_ecosystem_label }}</a></small>
     </div>
   </footer>
 </body>

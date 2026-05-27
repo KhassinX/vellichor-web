@@ -1,83 +1,85 @@
 title: Vellichor
-description: "PDF Q&A on-device. Apple Intelligence. Universal Apple-native."
+description: PDF Q&A on-device for Apple platforms. Apple Intelligence Foundation Models. Universal iPhone, iPad, Mac, and Apple Watch. Your PDFs never leave your device.
 url: https://vellichor.khassinx.com
 lang: en
 
-# Brand layer (per WEB_PROPERTY_SPEC §2): hereda umbrella visual identity (Apple-canon).
-umbrella_tokens: true
+# Layer 2 brand tokens (Vellichor specific) extending Layer 3 primitives
+app_tokens_css: /assets/css/vellichor-tokens.css
 
-# Favicons
-favicon_svg: /assets/favicons/vellichor.svg
-favicon_32: /assets/favicons/favicon-32.png
-favicon_16: /assets/favicons/favicon-16.png
-apple_touch_icon: /assets/favicons/apple-touch-icon.png
+# Favicons — single SVG monogram para Apple/modern browsers
+favicon_svg: /assets/favicons/favicon.svg
+apple_touch_icon: /assets/favicons/apple-touch-icon.svg
 
-include:
-  - .well-known
-
-exclude:
-  - README.md
-  - TROUBLESHOOTING.md
-  - .gitignore
-  - LICENSE
-
-plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
-
-# Locale-aware navigation (per ~/KhassinX/_template/web/WEB_PROPERTY_SPEC.md §7.5)
+# Navigation — keyed per locale. base.html selects via page.lang con fallback a 'en'.
 nav:
   en:
+    - title: Legal
+      url: /legal/
+    - title: Press
+      url: /press/
+  es:
+    - title: Legal
+      url: /es/legal/
+    - title: Prensa
+      url: /es/press/
+  pt-BR:
+    - title: Legal
+      url: /pt-BR/legal/
+    - title: Imprensa
+      url: /pt-BR/press/
+  de:
+    - title: Rechtliches
+      url: /de/legal/
+    - title: Presse
+      url: /de/press/
+
+footer_nav:
+  en:
+    - title: Privacy
+      url: /legal/privacy/
+    - title: Terms
+      url: /legal/terms/
     - title: Security
       url: /security/
     - title: Press
       url: /press/
-    - title: Legal
-      url: /legal/
+    - title: Contact
+      url: mailto:hello@khassinx.com
   es:
+    - title: Privacidad
+      url: /es/legal/privacy/
+    - title: Términos
+      url: /es/legal/terms/
     - title: Seguridad
       url: /es/security/
     - title: Prensa
       url: /es/press/
-    - title: Legal
-      url: /es/legal/
+    - title: Contacto
+      url: mailto:hello@khassinx.com
   pt-BR:
+    - title: Privacidade
+      url: /pt-BR/legal/privacy/
+    - title: Termos
+      url: /pt-BR/legal/terms/
     - title: Segurança
       url: /pt-BR/security/
     - title: Imprensa
       url: /pt-BR/press/
-    - title: Legal
-      url: /pt-BR/legal/
+    - title: Contato
+      url: mailto:hello@khassinx.com
   de:
+    - title: Datenschutz
+      url: /de/legal/privacy/
+    - title: Nutzungsbedingungen
+      url: /de/legal/terms/
     - title: Sicherheit
       url: /de/security/
     - title: Presse
       url: /de/press/
-    - title: Rechtliches
-      url: /de/legal/
+    - title: Kontakt
+      url: mailto:hello@khassinx.com
 
-footer_nav:
-  en:
-    - title: Security
-      url: /security/
-    - title: Legal
-      url: /legal/
-  es:
-    - title: Seguridad
-      url: /es/security/
-    - title: Legal
-      url: /es/legal/
-  pt-BR:
-    - title: Segurança
-      url: /pt-BR/security/
-    - title: Legal
-      url: /pt-BR/legal/
-  de:
-    - title: Sicherheit
-      url: /de/security/
-    - title: Rechtliches
-      url: /de/legal/
-
+# UI strings (skip-link y "Part of ecosystem") consumed by base.html
 ui_strings:
   en:
     skip_to_main: "Skip to main content"
@@ -93,9 +95,26 @@ ui_strings:
     skip_to_main: "Pular para o conteúdo principal"
     part_of_ecosystem_prefix: "Parte do"
     part_of_ecosystem_label: "ecossistema KhassinX"
-    ecosystem_url: "https://khassinx.com/pt-BR/"
+    ecosystem_url: "https://khassinx.com"
   de:
     skip_to_main: "Zum Hauptinhalt springen"
     part_of_ecosystem_prefix: "Teil des"
     part_of_ecosystem_label: "KhassinX-Ökosystems"
-    ecosystem_url: "https://khassinx.com/de/"
+    ecosystem_url: "https://khassinx.com"
+
+# Jekyll config
+markdown: kramdown
+plugins:
+  - jekyll-redirect-from
+  - jekyll-sitemap
+
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - .gitignore
+  - LICENSE
+
+# Jekyll por default ignora dotfiles/dotdirs. .well-known DEBE servirse
+# (RFC 9116 security.txt requiere path exacto /.well-known/security.txt).
+include:
+  - .well-known

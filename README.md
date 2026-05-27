@@ -1,28 +1,36 @@
 # vellichor-www
 
-Public web property for [Vellichor](https://vellichor.khassinx.com) — KhassinX commercial app.
+Source for **vellichor.khassinx.com** — the public web property for **Vellichor**, a PDF Q&A app powered by Apple Intelligence on-device, for iPhone, iPad, Mac, and Apple Watch.
 
-Static Jekyll site served via GitHub Pages, proxied through Cloudflare for security headers (HSTS, CSP, X-Frame-Options, etc.). DNS: `vellichor.khassinx.com` CNAME → `khassinx.github.io` (proxy ON).
+## What lives here
 
-## Pre-reads
+- `index.html` — landing page (EN)
+- `legal/` — Privacy Policy, Terms of Use, Legal index
+- `security/` — Security & Responsible Disclosure
+- `press/` — Press kit (fact sheet, contact, brand assets)
+- `es/`, `pt-BR/`, `de/` — natively written localized mirrors (Spanish, Brazilian Portuguese, German)
+- `_layouts/` — Jekyll base + prose layouts (shared with rest of KhassinX umbrella)
+- `assets/css/` — Layer 3 primitives + Layer 2 Vellichor brand tokens (warm brown signature)
+- `assets/favicons/` — V monogram favicons (parchment warm brown)
+- `.well-known/security.txt` — RFC 9116 machine-readable security policy
 
-- `~/KhassinX/_template/web/WEB_PROPERTY_SPEC.md` — canonical spec for KhassinX web properties
-- `~/KhassinX/_template/web/EMAILS.md` — email aliases canon
+## Stack
 
-## Local preview
+GitHub Pages (Jekyll) → Cloudflare proxy → `vellichor.khassinx.com`. Custom domain via `CNAME` file. SSL via Cloudflare Full (strict). Security headers via CF Transform Rules (HSTS, X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy, CSP).
 
-```bash
-bundle install
-bundle exec jekyll serve
-```
+Canonical spec: `~/KhassinX/_template/web/WEB_PROPERTY_SPEC.md`.
+Brand origin: `~/KhassinX/_template/designs/2026-05-26-vellichor-design.md`.
 
-## Deploy
+## Localization
 
-Push to `main` → GitHub Pages builds + serves automatically. CF proxy ON injects the umbrella's Transform Rule security headers.
+EN default (no prefix), ES under `/es/`, pt-BR under `/pt-BR/`, DE under `/de/`. Each locale is **natively written**, not machine-translated. Per-page `lang:` front-matter + hreflang tags signal locale to crawlers.
 
-## OPSEC
+## Brand
 
-- Zero PII in copy (no founder name, no Tampa/Florida/USA, no "solo dev")
-- Bug bounty / responsible disclosure visible (`/security/` + `/.well-known/security.txt`)
-- Audit before each deploy: `bash ~/KhassinX/_template/_scripts/audit_web_properties.sh vellichor.khassinx.com`
-- Audit per `khassinx-web-audit` skill (responsive + a11y WCAG AA)
+"Vellichor" is from John Koenig's *Dictionary of Obscure Sorrows* (2014): *"the strange wistfulness of used bookstores"*. The warm brown accent reflects aged paper and parchment.
+
+## Contact
+
+- General: [hello@khassinx.com](mailto:hello@khassinx.com)
+- Press: [press@khassinx.com](mailto:press@khassinx.com)
+- Security: [security@khassinx.com](mailto:security@khassinx.com)

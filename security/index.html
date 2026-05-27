@@ -1,58 +1,78 @@
 ---
 layout: base
-lang: en
 title: Security & Responsible Disclosure
 description: How to responsibly report security vulnerabilities in Vellichor.
 permalink: /security/
+lang: en
 canonical_en: /security/
 canonical_es: /es/security/
-canonical_pt: /pt-BR/security/
+canonical_pt-BR: /pt-BR/security/
 canonical_de: /de/security/
 ---
 
 <section class="section">
-  <div class="container container-narrow prose">
-    <h1>Security &amp; Responsible Disclosure</h1>
+  <div class="container container-narrow">
+    <h1>Security & Responsible Disclosure</h1>
 
-    <p class="lead">We take security seriously. If you've found a vulnerability in Vellichor, we appreciate your help in disclosing it responsibly.</p>
+    <p class="lead">Vellichor handles confidential documents — research papers, contracts, medical records, legal files. Security is not a feature for us, it is the foundation. If you have found a vulnerability, we appreciate your help in disclosing it responsibly.</p>
 
-    <p>This page summarizes the policy for Vellichor specifically. For the umbrella policy covering all KhassinX apps, see <a href="https://khassinx.com/security/">khassinx.com/security</a>.</p>
+    <p>This page covers Vellichor specifically. For the umbrella policy covering all KhassinX apps and infrastructure, see <a href="https://khassinx.com/security/">khassinx.com/security</a>.</p>
 
     <h2>Reporting</h2>
     <p>
       Email: <a href="mailto:security@khassinx.com">security@khassinx.com</a><br>
       Machine-readable disclosure pointer: <a href="/.well-known/security.txt">/.well-known/security.txt</a> (RFC 9116)
     </p>
+    <p class="text-secondary">Please include: a brief description, reproduction steps, the impact you observed, and any tooling or accounts you used. Do not include real confidential documents in your report — synthetic or public-domain PDFs are sufficient to demonstrate most issues.</p>
 
     <h2>Scope</h2>
     <ul>
       <li><code>vellichor.khassinx.com</code> (this website)</li>
-      <li>Vellichor app on the Apple App Store</li>
+      <li>Vellichor iOS / iPadOS / watchOS / macOS apps on the Apple App Store</li>
+      <li>Vellichor's use of CloudKit private database for sync (the schema and access patterns, not Apple's CloudKit infrastructure itself)</li>
+      <li>Vellichor's use of iCloud Drive containers for PDF storage (same caveat)</li>
     </ul>
 
     <h2>Out of scope</h2>
     <ul>
-      <li>Third-party services (Apple App Store, Cloudflare, GitHub) — please report to them directly</li>
+      <li>Third-party services (Apple App Store, Apple iCloud, Apple Intelligence Foundation Models) — please report to Apple directly via <a href="https://security.apple.com">security.apple.com</a></li>
       <li>Volumetric attacks (DDoS, brute force) — not vulnerabilities</li>
       <li>Reports generated solely by automated scanners without reproducible proof of impact</li>
+      <li>Theoretical issues without a demonstrable attack path</li>
+      <li>Email spoofing on subdomains where we explicitly publish SPF/DKIM/DMARC</li>
+      <li>Hallucinated or inaccurate AI output that does not constitute a security vulnerability (see the <a href="/legal/terms/">Terms</a> regarding AI accuracy)</li>
     </ul>
 
     <h2>Response targets</h2>
     <ul>
-      <li>Acknowledgement: within 5 business days</li>
-      <li>Initial triage: within 14 days</li>
-      <li>Coordinated disclosure timeline: agreed case by case</li>
+      <li><strong>Acknowledgement</strong>: within five business days</li>
+      <li><strong>Initial triage</strong>: within fourteen days</li>
+      <li><strong>Coordinated disclosure timeline</strong>: agreed case by case, typically ninety days for non-critical, expedited for critical</li>
     </ul>
 
     <h2>Safe harbor</h2>
     <p>We will not pursue legal action against researchers acting in good faith — investigating, reporting, and respecting our scope rules. This includes researchers accessing only data necessary to demonstrate the issue, not exfiltrating user data, and giving us reasonable time to remediate before public disclosure.</p>
 
     <h2>Recognition</h2>
-    <p>We don't currently offer a monetary bug bounty. We do offer:</p>
+    <p>We do not currently offer a monetary bug bounty. We offer:</p>
     <ul>
-      <li>Public acknowledgement (Hall of Thanks)</li>
-      <li>Free lifetime credit for Vellichor</li>
-      <li>A formal letter of recognition you can use in your portfolio</li>
+      <li>Public acknowledgement on this page (with your consent, in the form you prefer)</li>
+      <li>Direct communication with the engineering team handling the fix</li>
+      <li>A formal credit in our release notes when the fix ships</li>
     </ul>
+
+    <h2>What we ask you to avoid</h2>
+    <ul>
+      <li>Do not access, modify, or delete documents belonging to other users (none of which we hold on a server, but reproducing CloudKit-level issues with synthetic accounts is fine)</li>
+      <li>Do not perform tests that degrade service quality for other users</li>
+      <li>Do not publicly disclose the vulnerability before we have had a reasonable chance to fix it</li>
+      <li>Do not test on real user accounts without explicit written permission</li>
+    </ul>
+
+    <h2>Contact</h2>
+    <p>
+      Security disclosure: <a href="mailto:security@khassinx.com">security@khassinx.com</a> (PGP key available on request)<br>
+      General contact: <a href="mailto:hello@khassinx.com">hello@khassinx.com</a>
+    </p>
   </div>
 </section>
