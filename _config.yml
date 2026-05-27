@@ -6,6 +6,12 @@ lang: en
 include:
   - .well-known
 
+exclude:
+  - README.md
+  - TROUBLESHOOTING.md
+  - .gitignore
+  - LICENSE
+
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
