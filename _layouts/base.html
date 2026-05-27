@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} — {{ site.title }}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  {% seo %}
+  <style>
+    :root { color-scheme: light dark; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "SF Pro", system-ui, sans-serif; line-height: 1.6; margin: 0; padding: 0; }
+    .container { max-width: 1100px; margin: 0 auto; padding: 0 1.25rem; }
+    .container-narrow { max-width: 720px; }
+    .section { padding: 4rem 0; }
+    .hero { text-align: center; }
+    h1 { font-size: 2.5rem; margin: 0 0 0.5rem; }
+    .lead { font-size: 1.25rem; opacity: 0.85; }
+    a:focus-visible { outline: 2px solid currentColor; outline-offset: 2px; border-radius: 4px; }
+    .skip-link { position: absolute; left: -9999px; top: 0; padding: 0.5rem 1rem; background: #000; color: #fff; }
+    .skip-link:focus { left: 0; }
+    footer { padding: 2rem 0; text-align: center; opacity: 0.7; font-size: 0.875rem; }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main">{{ site.ui_strings[page.lang | default: site.lang].skip_to_main | default: "Skip to main content" }}</a>
+  <main id="main">
+    {{ content }}
+  </main>
+  <footer>
+    <div class="container">
+      {{ site.ui_strings[page.lang | default: site.lang].part_of_ecosystem_prefix | default: "Part of the" }}
+      <a href="{{ site.ui_strings[page.lang | default: site.lang].ecosystem_url | default: 'https://khassinx.com' }}">{{ site.ui_strings[page.lang | default: site.lang].part_of_ecosystem_label | default: "KhassinX ecosystem" }}</a>.
+    </div>
+  </footer>
+</body>
+</html>
