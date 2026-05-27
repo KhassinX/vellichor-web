@@ -428,26 +428,6 @@ pre code {
   color: var(--khassinx-text-tertiary);
 }
 
-/* Locale switcher — sutil en footer */
-.site-footer .locale-switcher {
-  display: flex;
-  gap: var(--space-s);
-  align-items: center;
-  font-size: var(--fs-caption);
-  color: var(--khassinx-text-tertiary);
-  margin-top: var(--space-md);
-}
-.site-footer .locale-switcher a {
-  color: var(--khassinx-text-tertiary);
-  min-height: auto;
-  font-size: var(--fs-caption);
-}
-.site-footer .locale-switcher a:hover { color: var(--khassinx-text-primary); }
-.site-footer .locale-switcher span[aria-current="true"] {
-  color: var(--khassinx-text-primary);
-  font-weight: 500;
-}
-
 /* ─── Article prose (for legal docs, blog posts) — Apple-canonical reading ─── */
 
 .prose {
