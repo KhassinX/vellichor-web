@@ -1,0 +1,20 @@
+/* Vellichor brand tokens (Layer 2 — app-specific)
+ * Source of truth: design doc 2026-05-26-vellichor-design.md
+ * Brand origin: Vellichor = "wistful melancholy of used bookstores"
+ */
+:root {
+  --accent: #6b5b4e;          /* parchment-warm brown */
+  --accent-dark: #d4c4ad;     /* aged paper highlight */
+  --text: #2a2520;
+  --text-dark: #ede4d4;
+  --bg: #faf7f1;              /* parchment cream */
+  --bg-dark: #1a1612;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --accent: var(--accent-dark);
+    --text: var(--text-dark);
+    --bg: var(--bg-dark);
+  }
+}
