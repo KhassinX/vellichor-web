@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   {%- comment -%}
     CSP fallback via meta http-equiv. Real headers vienen de Cloudflare Transform Rules.
@@ -12,8 +12,8 @@
   <title>{% if page.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{{ page.description | default: site.description }}">
 
-  <meta name="theme-color" content="#1a1612" media="(prefers-color-scheme: dark)">
-  <meta name="theme-color" content="#faf7f1" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#FFFFFF" media="(prefers-color-scheme: light)">
 
   <meta property="og:title" content="{% if page.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}">
   <meta property="og:description" content="{{ page.description | default: site.description }}">
@@ -29,13 +29,22 @@
   {% if page.canonical_de %}<link rel="alternate" hreflang="de"        href="{{ site.url }}{{ page.canonical_de }}">{% endif %}
   {% if page.canonical_en %}<link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ page.canonical_en }}">{% endif %}
 
-  <link rel="icon" type="image/svg+xml" href="{{ '/assets/favicons/vellichor.svg' | relative_url }}">
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/favicons/apple-touch-icon.png' | relative_url }}">
-  <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/favicons/favicon-32.png' | relative_url }}">
-  <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/favicons/favicon-16.png' | relative_url }}">
+  {% if site.favicon_svg %}<link rel="icon" type="image/svg+xml" href="{{ site.favicon_svg | relative_url }}">{% endif %}
+  {% if site.apple_touch_icon %}<link rel="apple-touch-icon" sizes="180x180" href="{{ site.apple_touch_icon | relative_url }}">{% endif %}
+  {% if site.favicon_32 %}<link rel="icon" type="image/png" sizes="32x32" href="{{ site.favicon_32 | relative_url }}">{% endif %}
+  {% if site.favicon_16 %}<link rel="icon" type="image/png" sizes="16x16" href="{{ site.favicon_16 | relative_url }}">{% endif %}
 
+  {% comment %}
+    CSS loading order (per WEB_PROPERTY_SPEC §2 + brand layers):
+    Layer 1 (umbrella tokens) optional → Layer 3 (primitives, uses Layer 1 names)
+    → Layer 2 (per-app tokens, rebinds Layer 1 names a app palette).
+    Per-app sites: set site.umbrella_tokens = false + provide site.app_tokens_css.
+    Vellichor v1: hereda umbrella verbatim (umbrella_tokens: true), sin Layer 2 propio.
+  {% endcomment %}
+  {% if site.umbrella_tokens %}<link rel="stylesheet" href="{{ '/assets/css/tokens.css' | relative_url }}">{% endif %}
   <link rel="stylesheet" href="{{ '/assets/css/primitives.css' | relative_url }}">
-  <link rel="stylesheet" href="{{ '/assets/css/vellichor-tokens.css' | relative_url }}">
+  {% if site.app_tokens_css %}<link rel="stylesheet" href="{{ site.app_tokens_css | relative_url }}">{% endif %}
+
   {% seo %}
 </head>
 <body>
@@ -56,11 +65,13 @@
     {%- assign logo_home = '/' | append: lang_key | append: '/' -%}
   {%- endif -%}
 
-  <a class="skip-link" href="#main">{{ ui.skip_to_main | default: 'Skip to main content' }}</a>
+  <a href="#main" class="skip-link">{{ ui.skip_to_main | default: 'Skip to main content' }}</a>
 
   <header class="site-header">
     <div class="container">
-      <a href="{{ logo_home | relative_url }}" class="brand">Vellichor</a>
+      <a href="{{ logo_home | relative_url }}" class="logo">
+        <span>{{ site.title }}</span>
+      </a>
       <nav class="site-nav" aria-label="Primary">
         {% for item in nav_items %}
           <a href="{{ item.url | relative_url }}"{% if item.external %} target="_blank" rel="noopener"{% endif %}>{{ item.title }}</a>
