@@ -3,10 +3,7 @@ description: "PDF Q&A on-device. Apple Intelligence. Universal Apple-native."
 url: https://vellichor.khassinx.com
 lang: en
 
-# Brand layer (per WEB_PROPERTY_SPEC §2)
-# Vellichor inherits umbrella visual identity verbatim (Apple-canonical palette).
-# Si en el futuro hay una paleta Vellichor propia aprobada por Abraham,
-# cambiar a `umbrella_tokens: false` + agregar `app_tokens_css: /assets/css/vellichor-tokens.css`.
+# Brand layer (per WEB_PROPERTY_SPEC §2): hereda umbrella visual identity (Apple-canon).
 umbrella_tokens: true
 
 # Favicons

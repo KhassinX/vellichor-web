@@ -1,10 +1,10 @@
 ---
 layout: base
 ---
-<section class="section">
-  <div class="container container-narrow prose">
-    <h1>{{ page.title }}</h1>
-    {% if page.updated %}<p><small>Last updated: {{ page.updated }}</small></p>{% endif %}
-    {{ content }}
-  </div>
-</section>
+
+<article class="container container-narrow prose" style="padding-top: var(--space-3xl); padding-bottom: var(--space-3xl);">
+  {% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
+  {% if page.updated %}<p class="text-tertiary"><small>Last updated: {{ page.updated }}</small></p>{% endif %}
+
+  {{ content }}
+</article>
