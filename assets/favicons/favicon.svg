@@ -1,6 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Vellichor">
-  <rect width="64" height="64" rx="14" ry="14" fill="#8B5A3C"/>
-  <text x="32" y="44" text-anchor="middle"
-        font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', system-ui, sans-serif"
-        font-size="38" font-weight="600" fill="#FFFFFF" letter-spacing="-1.5">V</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-label="Vellichor">
+  <defs>
+    <linearGradient id="parch" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#EAD3A0"/>
+      <stop offset="100%" stop-color="#D6B87B"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" rx="224" ry="224" fill="url(#parch)"/>
+  <rect x="195" y="133" width="635" height="778" rx="80" ry="80" fill="#F2E4C4"/>
+  <rect x="274" y="315" width="476" height="36" rx="18" ry="18" fill="#2B1C12"/>
+  <rect x="306" y="482" width="413" height="42" rx="21" ry="21" fill="#B5651D"/>
+  <rect x="337" y="655" width="349" height="36" rx="18" ry="18" fill="#2B1C12"/>
 </svg>

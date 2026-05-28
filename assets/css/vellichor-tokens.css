@@ -1,5 +1,5 @@
 /*
- * vellichor-tokens.css — Layer 2 Vellichor brand tokens — Apple-canon + warm brown signature
+ * vellichor-tokens.css — Layer 2 Vellichor brand tokens — Apple-canon + ámbar signature
  *
  * Per-app brand for vellichor.khassinx.com. Distinct de Layer 1 KhassinX umbrella
  * (umbrella es neutral Apple blue) y de Khazen (Apple-canon + teal).
@@ -8,18 +8,20 @@
  * + ~/KhassinX/_template/designs/2026-05-26-vellichor-design.md (brand origin).
  *
  * Brand origin: "Vellichor" — John Koenig, Dictionary of Obscure Sorrows (2014):
- * "the strange wistfulness of used bookstores". The warm brown accent reflects
- * aged paper / parchment — restrained, scholarly, not loud.
+ * "the strange wistfulness of used bookstores".
  *
- * Strategy: marketing pages Apple-canon light minimalism (Editor's Choice
- * standard) + restrained warm-brown accent. Apple system colors elsewhere.
+ * Refactor 2026-05-28: align accent to official Icon Composer .icon bundle.
+ * The icon uses parchment background #EAD3A0→#D6B87B + cream page #F2E4C4
+ * + espresso text lines #2B1C12 + ÁMBAR citation accent #B5651D. Web accent
+ * now matches the icon visually for coherence between App Store presence +
+ * marketing site (same pattern as ASVAB navy+gold and Khazen teal).
  *
- * App brand signature:
- *   - Warm brown CTA   #8B5A3C  (CTAs, links — WCAG AA on white: 5.10:1)
- *   - Warm brown hover #6B4528  (active state, darker)
- *   - Parchment soft   #F5EBE0  (subtle backgrounds, hover bg)
- *   - Warm bright      #C4915C  (vibrant decorative accent)
- * Mirrors planned `Color.vellichorAccent` family in Vellichor app interior.
+ * App brand signature (light):
+ *   - Ámbar CTA       #9C5418  (CTAs, links — WCAG AA on white: ~5.7:1)
+ *   - Ámbar hover     #7A4012  (active state, darker)
+ *   - Parchment soft  #F5EBE0  (subtle backgrounds — same cream tone as page in icon)
+ *   - Ámbar bright    #B5651D  (matches icon's citation line — borders/badges, NOT body text)
+ * Mirrors planned `Color.vellichorAmber` family in Vellichor app interior.
  */
 
 :root {
@@ -37,11 +39,11 @@
   --vellichor-text-tertiary: #86868B;
   --vellichor-text-disabled: #C7C7CC;
 
-  /* Accents — Vellichor warm brown signature (parchment-evoking) */
-  --vellichor-accent: #8B5A3C;            /* CTA/link warm brown (WCAG AA on white: 5.10:1) */
-  --vellichor-accent-strong: #6B4528;     /* Hover/active darker */
-  --vellichor-accent-soft: #F5EBE0;       /* Subtle backgrounds (parchment cream) */
-  --vellichor-accent-bright: #C4915C;     /* Vibrant decorative (warmer aged paper) */
+  /* Accents — Vellichor ámbar signature (matches Icon Composer .icon bundle) */
+  --vellichor-accent: #9C5418;            /* Ámbar CTA/link — WCAG AA on white: ~5.7:1 */
+  --vellichor-accent-strong: #7A4012;     /* Hover/active darker ámbar */
+  --vellichor-accent-soft: #F5EBE0;       /* Subtle backgrounds — same cream as icon page */
+  --vellichor-accent-bright: #B5651D;     /* Icon's citation line ámbar — decorative (borders/badges, NOT body text) */
 
   /* Borders (Apple hairline) */
   --vellichor-border: #D2D2D7;
@@ -160,10 +162,10 @@
     --vellichor-text-disabled: #48484A;
 
     /* Accents — Warm brown brightened for dark mode legibility */
-    --vellichor-accent: #D4A57A;            /* Brighter warm CTA on black (WCAG AA dark: ~7.8:1) */
-    --vellichor-accent-strong: #C4915C;     /* Hover slightly darker but still vibrant */
-    --vellichor-accent-soft: #2A1F15;       /* Subtle backgrounds (deep brown) */
-    --vellichor-accent-bright: #E5C5A0;     /* Vibrant decorative */
+    --vellichor-accent: #E5C079;            /* Ámbar brighter para dark mode legibilidad (matches icon's ámbar-cream) */
+    --vellichor-accent-strong: #D4A57A;     /* Medium ámbar hover */
+    --vellichor-accent-soft: #2A1812;       /* Deep espresso-ámbar subtle bg */
+    --vellichor-accent-bright: #F5D896;     /* Brighter ámbar decorative for dark */
 
     /* Borders (Apple dark hairline) */
     --vellichor-border: #38383A;

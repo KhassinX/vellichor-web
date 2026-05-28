@@ -6,9 +6,12 @@ lang: en
 # Layer 2 brand tokens (Vellichor specific) extending Layer 3 primitives
 app_tokens_css: /assets/css/vellichor-tokens.css
 
-# Favicons — single SVG monogram para Apple/modern browsers
+# Favicons (derived from Icon Composer .icon bundle 2026-05-28 — page+lines composition)
+# SVG primary for modern browsers, PNG fallbacks for legacy + iOS home screen
 favicon_svg: /assets/favicons/favicon.svg
-apple_touch_icon: /assets/favicons/apple-touch-icon.svg
+favicon_32: /assets/favicons/favicon-32.png
+favicon_16: /assets/favicons/favicon-16.png
+apple_touch_icon: /assets/favicons/apple-touch-icon.png
 
 # Navigation — keyed per locale. base.html selects via page.lang con fallback a 'en'.
 nav:
