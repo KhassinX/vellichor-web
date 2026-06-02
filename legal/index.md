@@ -5,8 +5,6 @@ permalink: /legal/
 lang: en
 canonical_en: /legal/
 canonical_es: /es/legal/
-canonical_pt-BR: /pt-BR/legal/
-canonical_de: /de/legal/
 updated: 2026-05-27
 ---
 

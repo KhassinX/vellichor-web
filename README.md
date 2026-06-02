@@ -1,4 +1,4 @@
-# vellichor-www
+# vellichor-web
 
 Source for **vellichor.khassinx.com** — the public web property for **Vellichor**, a PDF Q&A app powered by Apple Intelligence on-device, for iPhone, iPad, Mac, and Apple Watch.
 
@@ -8,7 +8,7 @@ Source for **vellichor.khassinx.com** — the public web property for **Vellicho
 - `legal/` — Privacy Policy, Terms of Use, Legal index
 - `security/` — Security & Responsible Disclosure
 - `press/` — Press kit (fact sheet, contact, brand assets)
-- `es/`, `pt-BR/`, `de/` — natively written localized mirrors (Spanish, Brazilian Portuguese, German)
+- `es/` — natively written localized mirror (Spanish; neutral panhispanic). pt-BR/de-DE deferred to v1.x (ADR 0008)
 - `_layouts/` — Jekyll base + prose layouts (shared with rest of KhassinX umbrella)
 - `assets/css/` — Layer 3 primitives + Layer 2 Vellichor brand tokens (warm brown signature)
 - `assets/favicons/` — V monogram favicons (parchment warm brown)
@@ -23,7 +23,7 @@ Brand origin: `~/KhassinX/_template/designs/2026-05-26-vellichor-design.md`.
 
 ## Localization
 
-EN default (no prefix), ES under `/es/`, pt-BR under `/pt-BR/`, DE under `/de/`. Each locale is **natively written**, not machine-translated. Per-page `lang:` front-matter + hreflang tags signal locale to crawlers.
+EN default (no prefix), ES under `/es/`. Each locale is **natively written**, not machine-translated. Per-page `lang:` front-matter + hreflang tags signal locale to crawlers. pt-BR + de-DE deferred to v1.x per ADR 0008 (v1 ships en-US + es only).
 
 ## Brand
 
