@@ -5,8 +5,6 @@ permalink: /es/legal/terms/
 lang: es
 canonical_en: /legal/terms/
 canonical_es: /es/legal/terms/
-canonical_pt-BR: /pt-BR/legal/terms/
-canonical_de: /de/legal/terms/
 updated: 2026-05-27
 ---
 
@@ -16,7 +14,7 @@ updated: 2026-05-27
 
 Estos son los términos para usar **Vellichor**, una app de Q&A sobre PDFs para plataformas Apple desarrollada por **KhassinX**.
 
-Al instalar o usar Vellichor, aceptás estos términos. Si no estás de acuerdo, no uses la app.
+Al instalar o usar Vellichor, aceptas estos términos. Si no estás de acuerdo, no uses la app.
 
 ## La app
 
@@ -26,14 +24,14 @@ La app se distribuye exclusivamente a través de la Apple App Store. El acuerdo 
 
 ## Licencia
 
-Vellichor te otorga una licencia personal, no exclusiva y no transferible para usar la app en dispositivos Apple que poseés o controlás, según las reglas de uso de Apple y estos términos.
+Vellichor te otorga una licencia personal, no exclusiva y no transferible para usar la app en dispositivos Apple que posees o controlas, según las reglas de uso de Apple y estos términos.
 
-No podés:
+No puedes:
 
 - Hacer reverse-engineering, decompilar ni desensamblar la app, salvo que la ley aplicable lo permita expresamente a pesar de esta restricción
 - Eliminar ni alterar avisos de propiedad
 - Usar la app para desarrollar un producto competidor
-- Usar la app para fines ilegales, incluyendo procesar documentos a los que no tenés derecho legal de acceder
+- Usar la app para fines ilegales, incluyendo procesar documentos a los que no tienes derecho legal de acceder
 
 ## Precios
 
@@ -54,15 +52,15 @@ Si comprás Vellichor Pro, los miembros de tu grupo de Family Sharing de Apple r
 
 ## IA en el dispositivo y precisión
 
-Vellichor usa Apple Intelligence Foundation Models corriendo en tu dispositivo. Los modelos de lenguaje grandes pueden producir output inexacto, incompleto o engañoso. Vellichor mitiga esto con retrieval-augmented generation (RAG) y respuestas con cita obligatoria, pero **vos seguís siendo responsable de verificar cualquier respuesta antes de usarla para decisiones importantes** — legales, médicas, financieras, académicas o de otro tipo.
+Vellichor usa Apple Intelligence Foundation Models corriendo en tu dispositivo. Los modelos de lenguaje grandes pueden producir output inexacto, incompleto o engañoso. Vellichor mitiga esto con retrieval-augmented generation (RAG) y respuestas con cita obligatoria, pero **sigues siendo responsable de verificar cualquier respuesta antes de usarla para decisiones importantes** — legales, médicas, financieras, académicas o de otro tipo.
 
 Vellichor es una herramienta de productividad. No reemplaza el consejo profesional de un abogado, médico, contador o experto del dominio calificado.
 
 ## Tu contenido
 
-Vellichor procesa los PDFs que importás. No reclamamos propiedad ni licencia sobre tus documentos. Siguen siendo tuyos. Mirá la [Política de Privacidad](/es/legal/privacy/) para detalles de cómo se guardan (localmente en tu dispositivo y en tu iCloud personal).
+Vellichor procesa los PDFs que importas. No reclamamos propiedad ni licencia sobre tus documentos. Siguen siendo tuyos. Consulta la [Política de Privacidad](/es/legal/privacy/) para detalles de cómo se guardan (localmente en tu dispositivo y en tu iCloud personal).
 
-Declarás que tenés derecho a usar, importar y procesar cualquier PDF que cargues en Vellichor.
+Declaras que tienes derecho a usar, importar y procesar cualquier PDF que cargues en Vellichor.
 
 ## Disponibilidad del servicio
 
@@ -80,9 +78,9 @@ Nada en estos términos excluye o limita responsabilidades que no pueden ser exc
 
 ## Terminación
 
-Podés dejar de usar Vellichor en cualquier momento eliminándola de tus dispositivos. Podemos discontinuar la app en cualquier momento; si lo hacemos, los términos de Apple rigen cualquier elegibilidad de reembolso.
+Puedes dejar de usar Vellichor en cualquier momento eliminándola de tus dispositivos. Podemos discontinuar la app en cualquier momento; si lo hacemos, los términos de Apple rigen cualquier elegibilidad de reembolso.
 
-Si violás estos términos, podemos, a nuestra discreción, negarnos a proveer servicios o releases futuras.
+Si violas estos términos, podemos, a nuestra discreción, negarnos a proveer servicios o releases futuras.
 
 ## Ley aplicable
 

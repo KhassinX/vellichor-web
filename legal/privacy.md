@@ -5,8 +5,6 @@ permalink: /legal/privacy/
 lang: en
 canonical_en: /legal/privacy/
 canonical_es: /es/legal/privacy/
-canonical_pt-BR: /pt-BR/legal/privacy/
-canonical_de: /de/legal/privacy/
 updated: 2026-05-28
 redirect_from:
   - /privacy/
@@ -20,7 +18,7 @@ redirect_from:
 
 ## Introduction
 
-Vellichor is a PDF utility app for Apple platforms (iPhone, iPad, Mac, Apple Watch) built on a single guarantee: **your documents never leave your device**. This Privacy Policy explains what data Vellichor handles, where it lives, and what we do — and do not do — with it.
+Vellichor is a PDF utility app for Apple platforms (iPhone, iPad, Mac, Apple Watch) built on a single guarantee: **your content is never sent to our servers or any cloud AI — we have none.** Your documents may sync, at your option, only through your own encrypted iCloud (see §3). This Privacy Policy explains what data Vellichor handles, where it lives, and what we do — and do not do — with it.
 
 If you do not agree with this policy, do not use Vellichor. Continued use indicates acceptance.
 
@@ -153,7 +151,7 @@ Vellichor uses Apple Intelligence (Foundation Models framework) for on-device qu
 - Text is chunked, embedded, and indexed entirely on-device using Apple's Foundation Models
 - Your query is processed on-device by Apple's language model
 - Responses are generated on-device with citations to specific pages
-- **No document content, queries, or responses leave your device**
+- **No document content, queries, or responses are sent to our servers or any third-party AI service** — all AI processing is on-device
 - **Nothing is sent to OpenAI, Anthropic, Google, or any third-party AI service**
 
 ### Device requirements
