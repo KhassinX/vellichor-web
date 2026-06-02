@@ -5,8 +5,6 @@ permalink: /es/legal/
 lang: es
 canonical_en: /legal/
 canonical_es: /es/legal/
-canonical_pt-BR: /pt-BR/legal/
-canonical_de: /de/legal/
 updated: 2026-05-27
 ---
 
@@ -30,6 +28,6 @@ Documentos legales públicos de **Vellichor**.
 
 ## Licencia
 
-Estos documentos legales están publicados bajo **CC0 1.0** (dedicación al dominio público) — podés adaptarlos para tus propias apps de IA on-device. Reflejan una arquitectura de cero recolección y compra única que tal vez no se ajuste a apps con otras prácticas de datos.
+Estos documentos legales están publicados bajo **CC0 1.0** (dedicación al dominio público) — puedes adaptarlos para tus propias apps de IA on-device. Reflejan una arquitectura de cero recolección y compra única que tal vez no se ajuste a apps con otras prácticas de datos.
 
 La app Vellichor en sí es **propietaria** y no está cubierta por esta dedicación CC0.

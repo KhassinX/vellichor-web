@@ -5,8 +5,6 @@ permalink: /legal/terms/
 lang: en
 canonical_en: /legal/terms/
 canonical_es: /es/legal/terms/
-canonical_pt-BR: /pt-BR/legal/terms/
-canonical_de: /de/legal/terms/
 updated: 2026-05-27
 redirect_from:
   - /terms/
