@@ -13,6 +13,22 @@ favicon_32: /assets/favicons/favicon-32.png
 favicon_16: /assets/favicons/favicon-16.png
 apple_touch_icon: /assets/favicons/apple-touch-icon.png
 
+# Social / Open Graph + Twitter
+og_site_name: Vellichor
+og_image: /assets/og/og-image.png
+og_image_width: 1200
+og_image_height: 630
+og_image_alt: "Vellichor — PDF Q&A on-device for Apple platforms"
+twitter_card: summary_large_image
+
+# JSON-LD (SoftwareApplication, publisher KhassinX)
+org:
+  name: KhassinX
+
+# SEO sitemap (GitHub Pages whitelisted plugin)
+plugins:
+  - jekyll-sitemap
+
 # Navigation — keyed per locale. base.html selects via page.lang con fallback a 'en'.
 nav:
   en:
