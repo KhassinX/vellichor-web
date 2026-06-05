@@ -14,7 +14,7 @@ redirect_from:
 
 **Effective date: 2026-05-27**
 
-These are the terms for using **Vellichor**, a PDF Q&A app for Apple platforms built by **KhassinX**.
+These are the terms for using **Vellichor**, a PDF Q&A app for Apple platforms built by **KhassinX** (KHASSINX LLC, a Florida limited liability company).
 
 By installing or using Vellichor, you agree to these terms. If you do not agree, do not use the app.
 
@@ -74,7 +74,7 @@ Apple Intelligence Foundation Models availability depends on your device meeting
 
 The app is provided "as is" without warranties of any kind, express or implied, including warranties of merchantability, fitness for a particular purpose, or non-infringement, to the maximum extent permitted by applicable law.
 
-To the maximum extent permitted by applicable law, KhassinX is not liable for indirect, incidental, special, consequential, or punitive damages arising from your use of the app.
+To the maximum extent permitted by applicable law, KHASSINX LLC is not liable for indirect, incidental, special, consequential, or punitive damages arising from your use of the app.
 
 Nothing in these terms excludes or limits liability that cannot be excluded or limited by law (including, where applicable, statutory consumer rights and liability for gross negligence or wilful misconduct).
 
@@ -86,7 +86,7 @@ If you violate these terms, we may, at our discretion, refuse to provide future 
 
 ## Governing law
 
-These terms are governed by the laws applicable to KhassinX's place of operation, without reference to conflict-of-law principles. Disputes will be resolved in the competent courts of that jurisdiction, except where consumer protection laws of your residence give you mandatory rights to a different venue.
+These terms are governed by the laws of the State of Florida, United States, where KHASSINX LLC is organized, without reference to conflict-of-law principles. Disputes will be resolved in the competent courts of that jurisdiction, except where consumer protection laws of your residence give you mandatory rights to a different venue.
 
 ## Changes to these terms
 
@@ -96,4 +96,4 @@ If we change these terms, the new version replaces the old at this URL. The prev
 
 - **General**: [hello@khassinx.com](mailto:hello@khassinx.com)
 - **Legal**: [hello@khassinx.com](mailto:hello@khassinx.com)
-- **Developer**: KhassinX
+- **Developer**: KHASSINX LLC, a Florida limited liability company

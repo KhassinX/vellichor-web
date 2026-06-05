@@ -20,7 +20,7 @@ Documentos legales públicos de **Vellichor**.
 
 ## Contacto
 
-- **Desarrollador**: KhassinX
+- **Desarrollador**: KHASSINX LLC, una sociedad de responsabilidad limitada de Florida
 - **General**: [hello@khassinx.com](mailto:hello@khassinx.com)
 - **Prensa**: [press@khassinx.com](mailto:press@khassinx.com)
 - **Seguridad**: [security@khassinx.com](mailto:security@khassinx.com) ([política de disclosure](https://khassinx.com/es/security/))

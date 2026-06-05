@@ -58,7 +58,7 @@
     "description": {{ site.description | jsonify }},
     "applicationCategory": "Productivity",
     "operatingSystem": "iOS, iPadOS, macOS, watchOS",
-    "publisher": { "@type": "Organization", "name": {{ site.org.name | default: "KhassinX" | jsonify }}, "url": "https://khassinx.com" }
+    "publisher": { "@type": "Organization", "name": {{ site.org.name | default: "KhassinX" | jsonify }}, "legalName": {{ site.org.legal_name | default: "KHASSINX LLC" | jsonify }}, "url": "https://khassinx.com" }
   }
   </script>{% endif %}
 
@@ -113,7 +113,7 @@
 
   <footer class="site-footer">
     <div class="container">
-      <div>© {{ 'now' | date: '%Y' }} KhassinX</div>
+      <div>© {{ 'now' | date: '%Y' }} {{ site.org.legal_name | default: "KHASSINX LLC" }}</div>
       <nav aria-label="Footer">
         {% for item in footer_items %}
           <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
