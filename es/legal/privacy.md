@@ -12,7 +12,7 @@ updated: 2026-05-27
 
 **Fecha de vigencia: 2026-05-27**
 
-Esta es la política de privacidad de **Vellichor**, una app de Q&A sobre PDFs para plataformas Apple desarrollada por **KhassinX**.
+Esta es la política de privacidad de **Vellichor**, una app de Q&A sobre PDFs para plataformas Apple desarrollada por **KhassinX** (KHASSINX LLC, una sociedad de responsabilidad limitada de Florida).
 
 La escribimos en lenguaje claro porque queremos que la leas de verdad.
 
@@ -86,4 +86,4 @@ No vamos a expandir retroactivamente lo que recolectamos. Si una feature futura 
 
 - **Consultas de privacidad**: [hello@khassinx.com](mailto:hello@khassinx.com)
 - **Reportes de seguridad**: [security@khassinx.com](mailto:security@khassinx.com) ([política](/es/security/))
-- **Desarrollador**: KhassinX
+- **Desarrollador**: KHASSINX LLC, una sociedad de responsabilidad limitada de Florida

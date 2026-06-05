@@ -21,9 +21,11 @@ og_image_height: 630
 og_image_alt: "Vellichor — PDF Q&A on-device for Apple platforms"
 twitter_card: summary_large_image
 
-# JSON-LD (SoftwareApplication, publisher KhassinX)
+# JSON-LD (SoftwareApplication, publisher KhassinX). `name` is the brand wordmark;
+# `legal_name` is the registered legal entity (used in footer/JSON-LD/legal pages).
 org:
   name: KhassinX
+  legal_name: KHASSINX LLC
 
 # Navigation — keyed per locale. base.html selects via page.lang con fallback a 'en'.
 nav:

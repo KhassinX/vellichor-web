@@ -282,7 +282,7 @@ For privacy questions:
 
 ### EU representative (GDPR Article 27)
 
-KhassinX, as a non-EU controller offering services to EU users, makes the following declaration:
+KHASSINX LLC (a Florida limited liability company), the operator of Vellichor and a non-EU controller offering services to EU users, makes the following declaration:
 
 Vellichor's architecture is **zero-collection on Vellichor's side** — no personal data is transmitted to KhassinX servers (because there are no KhassinX servers). The on-device hash + timestamp + biometric boolean + approximate device class processed during forensic certification is processed exclusively on the user's Apple device, never reaches KhassinX systems, and falls outside the territorial scope clarifications of GDPR Art. 3(2) for "processing" by the controller.
 

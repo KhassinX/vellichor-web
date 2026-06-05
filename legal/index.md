@@ -22,7 +22,7 @@ Short aliases: [/privacy/](/legal/privacy/) · [/terms/](/legal/terms/)
 
 ## Contact
 
-- **Developer**: KhassinX
+- **Developer**: KHASSINX LLC, a Florida limited liability company
 - **General**: [hello@khassinx.com](mailto:hello@khassinx.com)
 - **Press**: [press@khassinx.com](mailto:press@khassinx.com)
 - **Security**: [security@khassinx.com](mailto:security@khassinx.com) ([disclosure policy](https://khassinx.com/security/))
