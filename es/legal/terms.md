@@ -12,7 +12,7 @@ updated: 2026-05-27
 
 **Fecha de vigencia: 2026-05-27**
 
-Estos son los términos para usar **Vellichor**, una app de Q&A sobre PDFs para plataformas Apple desarrollada por **KhassinX**.
+Estos son los términos para usar **Vellichor**, una app de Q&A sobre PDFs para plataformas Apple desarrollada por **KhassinX** (KHASSINX LLC, una sociedad de responsabilidad limitada de Florida).
 
 Al instalar o usar Vellichor, aceptas estos términos. Si no estás de acuerdo, no uses la app.
 
@@ -72,7 +72,7 @@ La disponibilidad de Apple Intelligence Foundation Models depende de que tu disp
 
 La app se provee "tal como está", sin garantías de ningún tipo, expresas o implícitas, incluyendo garantías de comerciabilidad, idoneidad para un propósito particular o no infracción, al máximo permitido por la ley aplicable.
 
-Al máximo permitido por la ley aplicable, KhassinX no se hace responsable por daños indirectos, incidentales, especiales, consecuentes o punitivos que surjan del uso de la app.
+Al máximo permitido por la ley aplicable, KHASSINX LLC no se hace responsable por daños indirectos, incidentales, especiales, consecuentes o punitivos que surjan del uso de la app.
 
 Nada en estos términos excluye o limita responsabilidades que no pueden ser excluidas o limitadas por ley (incluyendo, donde aplique, derechos estatutarios del consumidor y responsabilidad por negligencia grave o dolo).
 
@@ -84,7 +84,7 @@ Si violas estos términos, podemos, a nuestra discreción, negarnos a proveer se
 
 ## Ley aplicable
 
-Estos términos se rigen por las leyes aplicables al lugar de operación de KhassinX, sin referencia a principios de conflicto de leyes. Las disputas se resolverán en los tribunales competentes de esa jurisdicción, salvo que las leyes de protección al consumidor de tu residencia te den derechos obligatorios a un foro distinto.
+Estos términos se rigen por las leyes del Estado de Florida, Estados Unidos, donde está constituida KHASSINX LLC, sin referencia a principios de conflicto de leyes. Las disputas se resolverán en los tribunales competentes de esa jurisdicción, salvo que las leyes de protección al consumidor de tu residencia te den derechos obligatorios a un foro distinto.
 
 ## Cambios a estos términos
 
@@ -94,4 +94,4 @@ Si cambiamos estos términos, la nueva versión reemplaza a la anterior en esta 
 
 - **General**: [hello@khassinx.com](mailto:hello@khassinx.com)
 - **Legal**: [hello@khassinx.com](mailto:hello@khassinx.com)
-- **Desarrollador**: KhassinX
+- **Desarrollador**: KHASSINX LLC, una sociedad de responsabilidad limitada de Florida
