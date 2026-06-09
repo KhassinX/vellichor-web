@@ -5,7 +5,7 @@ permalink: /legal/
 lang: en
 canonical_en: /legal/
 canonical_es: /es/legal/
-updated: 2026-05-27
+updated: 2026-06-09
 ---
 
 # Legal
@@ -16,6 +16,8 @@ Public legal documents for **Vellichor**.
 - **[Terms of Use](/legal/terms/)** — terms of using the app and its one-time unlock
 - **[Security & Responsible Disclosure](/security/)** — how to report vulnerabilities
 
+For the privacy rights you have under GDPR, the UK GDPR, Spain's LOPDGDD, California's CCPA, other US states, and elsewhere — and how to exercise them — see KhassinX's [Privacy Rights Center](https://khassinx.com/legal/your-rights/).
+
 Short aliases: [/privacy/](/legal/privacy/) · [/terms/](/legal/terms/)
 
 ---
@@ -24,9 +26,9 @@ Short aliases: [/privacy/](/legal/privacy/) · [/terms/](/legal/terms/)
 
 - **Developer**: KHASSINX LLC, a Florida limited liability company
 - **General**: [hello@khassinx.com](mailto:hello@khassinx.com)
+- **Privacy & legal**: [legal@khassinx.com](mailto:legal@khassinx.com)
 - **Press**: [press@khassinx.com](mailto:press@khassinx.com)
 - **Security**: [security@khassinx.com](mailto:security@khassinx.com) ([disclosure policy](https://khassinx.com/security/))
-- **Privacy concerns**: [hello@khassinx.com](mailto:hello@khassinx.com)
 
 ## License
 

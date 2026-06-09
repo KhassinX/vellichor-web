@@ -5,12 +5,12 @@ permalink: /es/legal/terms/
 lang: es
 canonical_en: /legal/terms/
 canonical_es: /es/legal/terms/
-updated: 2026-05-27
+updated: 2026-06-09
 ---
 
 # Términos de uso
 
-**Fecha de vigencia: 2026-05-27**
+**Fecha de vigencia: 2026-06-09**
 
 Estos son los términos para usar **Vellichor**, una app de Q&A sobre PDFs para plataformas Apple desarrollada por **KhassinX** (KHASSINX LLC, una sociedad de responsabilidad limitada de Florida).
 
@@ -48,7 +48,7 @@ Si estás insatisfecho con la app, los pedidos de reembolso se deben enviar a Ap
 
 ## Family Sharing
 
-Si comprás Vellichor Pro, los miembros de tu grupo de Family Sharing de Apple reciben el entitlement Pro en sus propios dispositivos, según las reglas de Family Sharing de Apple. Esto lo maneja Apple por completo; no vemos identidades de miembros de la familia ni cantidad de dispositivos.
+Si compras Vellichor Pro, los miembros de tu grupo de Family Sharing de Apple reciben el entitlement Pro en sus propios dispositivos, según las reglas de Family Sharing de Apple. Esto lo maneja Apple por completo; no vemos identidades de miembros de la familia ni cantidad de dispositivos.
 
 ## IA en el dispositivo y precisión
 
@@ -93,5 +93,5 @@ Si cambiamos estos términos, la nueva versión reemplaza a la anterior en esta 
 ## Contacto
 
 - **General**: [hello@khassinx.com](mailto:hello@khassinx.com)
-- **Legal**: [hello@khassinx.com](mailto:hello@khassinx.com)
+- **Legal**: [legal@khassinx.com](mailto:legal@khassinx.com)
 - **Desarrollador**: KHASSINX LLC, una sociedad de responsabilidad limitada de Florida
