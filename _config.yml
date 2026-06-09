@@ -40,16 +40,18 @@ nav:
     - title: Prensa
       url: /es/press/
 
+# Footer — orden canónico del Legal Trust Hub (WEB_PROPERTY_SPEC §10.3):
+# Privacy · Terms · Legal · Security · Contact. Prensa vive en el nav superior.
 footer_nav:
   en:
     - title: Privacy
       url: /legal/privacy/
     - title: Terms
       url: /legal/terms/
+    - title: Legal
+      url: /legal/
     - title: Security
       url: /security/
-    - title: Press
-      url: /press/
     - title: Contact
       url: mailto:hello@khassinx.com
   es:
@@ -57,10 +59,10 @@ footer_nav:
       url: /es/legal/privacy/
     - title: Términos
       url: /es/legal/terms/
+    - title: Legal
+      url: /es/legal/
     - title: Seguridad
       url: /es/security/
-    - title: Prensa
-      url: /es/press/
     - title: Contacto
       url: mailto:hello@khassinx.com
 
@@ -71,11 +73,13 @@ ui_strings:
     part_of_ecosystem_prefix: "Part of the"
     part_of_ecosystem_label: "KhassinX ecosystem"
     ecosystem_url: "https://khassinx.com"
+    last_updated_label: "Last updated"
   es:
     skip_to_main: "Saltar al contenido principal"
     part_of_ecosystem_prefix: "Parte del"
     part_of_ecosystem_label: "ecosistema KhassinX"
     ecosystem_url: "https://khassinx.com/es/"
+    last_updated_label: "Última actualización"
 
 # Jekyll config
 markdown: kramdown
