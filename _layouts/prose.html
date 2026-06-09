@@ -2,9 +2,14 @@
 layout: base
 ---
 
+{%- comment -%} ui se reasigna acá: prose.html renderiza antes de que base.html lo envuelva,
+así que las variables de base no están disponibles. lang_key resuelve el label localizado. {%- endcomment -%}
+{%- assign lang_key = page.lang | default: 'en' -%}
+{%- assign ui = site.ui_strings[lang_key] | default: site.ui_strings.en -%}
+
 <article class="container container-narrow prose" style="padding-top: var(--space-3xl); padding-bottom: var(--space-3xl);">
   {% if page.title %}<h1>{{ page.title }}</h1>{% endif %}
-  {% if page.updated %}<p class="text-tertiary"><small>Last updated: {{ page.updated }}</small></p>{% endif %}
+  {% if page.updated %}<p class="text-tertiary"><small>{{ ui.last_updated_label | default: 'Last updated' }}: {{ page.updated }}</small></p>{% endif %}
 
   {{ content }}
 </article>

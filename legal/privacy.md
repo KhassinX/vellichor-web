@@ -5,7 +5,7 @@ permalink: /legal/privacy/
 lang: en
 canonical_en: /legal/privacy/
 canonical_es: /es/legal/privacy/
-updated: 2026-05-28
+updated: 2026-06-09
 redirect_from:
   - /privacy/
 ---
@@ -14,7 +14,7 @@ redirect_from:
 # Vellichor Privacy Policy
 
 **Effective date**: TBD (date of v1.0 App Store launch)
-**Last updated**: 2026-05-28 (draft)
+**Last updated**: 2026-06-09 (draft)
 
 ## Introduction
 
@@ -252,7 +252,9 @@ Your data goes nowhere except where you explicitly send it (e.g., the Share Shee
 
 ## 12. Your rights
 
-You can:
+For the full set of rights you have under GDPR (EU/EEA), the UK GDPR, Spain's LOPDGDD, California's CCPA/CPRA, other US states, and elsewhere — and the channels to exercise them — see KhassinX's **[Privacy Rights Center](https://khassinx.com/legal/your-rights/)**. The rights are the same across every KhassinX app, so we maintain them in one place rather than duplicating them here.
+
+In Vellichor specifically, you can exercise them directly — most without contacting anyone, because the data is already yours:
 
 - **Access your data**: it's already on your device — open Vellichor and view everything
 - **Export your data**: use Vellichor's Export feature to take everything elsewhere in standard formats (PDF, JPG, Markdown, JSON, CSV)
@@ -260,15 +262,8 @@ You can:
 - **Revoke iCloud access**: iOS Settings → iCloud → Vellichor → off
 - **Revoke biometric access**: iOS Settings → Face ID & Passcode → app permissions
 - **Disable analytics**: when telemetry exists (v1.1+), Settings → Privacy → Analytics → off
-- **Request information**: contact us (see §13) — though we will likely respond "we don't have it" because we don't
 
-Under GDPR (EU), CCPA (California), LGPD (Brazil), and similar jurisdictional rights:
-- Right to access: see above
-- Right to rectification: edit on-device anytime
-- Right to erasure: uninstall removes local data; iCloud follows Apple's policy
-- Right to data portability: Export feature
-- Right to object to processing: turn off Vellichor — there's nothing to object to
-- Right to lodge a complaint: contact your local data protection authority
+To make a formal request or lodge a question, email [`legal@khassinx.com`](mailto:legal@khassinx.com) — though we will likely respond "we don't have it," because we don't.
 
 ---
 
@@ -276,7 +271,7 @@ Under GDPR (EU), CCPA (California), LGPD (Brazil), and similar jurisdictional ri
 
 For privacy questions:
 
-- **Email**: hello@khassinx.com
+- **Email**: [legal@khassinx.com](mailto:legal@khassinx.com)
 - **Response target**: within 7 business days
 - **For security disclosures**: see vellichor.khassinx.com/security (security.txt file)
 
@@ -288,13 +283,13 @@ Vellichor's architecture is **zero-collection on Vellichor's side** — no perso
 
 **However**, to maximize defensibility and respect EU users' rights:
 - We are evaluating designation of an EU representative per Art. 27. Pending designation, this section serves as transparent disclosure.
-- EU users may exercise their GDPR rights by contacting `hello@khassinx.com`.
+- EU users may exercise their GDPR rights by contacting [`legal@khassinx.com`](mailto:legal@khassinx.com), or via the [Privacy Rights Center](https://khassinx.com/legal/your-rights/).
 - A formal EU representative will be designated before any feature is added that would qualify as KhassinX-side processing (e.g., optional TelemetryDeck v1.1).
 
 ### Data Protection Officer / Brazilian Encarregado (LGPD)
 
 - **DPO / Encarregado**: KhassinX Privacy Office
-- **Contact**: hello@khassinx.com
+- **Contact**: [legal@khassinx.com](mailto:legal@khassinx.com)
 - **LGPD rights** (Art. 18): access, correction, deletion, portability, anonymization, objection — exercisable via the contact above.
 
 ---
