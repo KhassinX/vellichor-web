@@ -5,12 +5,12 @@ permalink: /es/legal/privacy/
 lang: es
 canonical_en: /legal/privacy/
 canonical_es: /es/legal/privacy/
-updated: 2026-05-27
+updated: 2026-06-09
 ---
 
 # Política de Privacidad
 
-**Fecha de vigencia: 2026-05-27**
+**Fecha de vigencia: 2026-06-09**
 
 Esta es la política de privacidad de **Vellichor**, una app de Q&A sobre PDFs para plataformas Apple desarrollada por **KhassinX** (KHASSINX LLC, una sociedad de responsabilidad limitada de Florida).
 
@@ -74,7 +74,7 @@ Vellichor tiene clasificación 4+ y no contiene contenido objetable. No recolect
 
 Como no recolectamos datos, no hay nada que podamos acceder, corregir, eliminar ni exportar a tu pedido. Por supuesto, puedes eliminar la app y (por separado) borrar sus datos de iCloud de tu Apple ID en cualquier momento.
 
-Si vives en una jurisdicción con derechos de privacidad específicos (GDPR en la UE/Reino Unido, CCPA en California, LGPD en Brasil, y otros), esos derechos siguen aplicando, pero su efecto práctico sobre Vellichor es mínimo: no somos el controlador de datos sobre nada tuyo.
+El conjunto completo de derechos que tienes según tu jurisdicción (RGPD en la UE/EEE, RGPD del Reino Unido, LOPDGDD de España, CCPA/CPRA en California, otros estados de EE. UU., LGPD en Brasil y otras) — y los canales para ejercerlos — vive en el **[Centro de Derechos de Privacidad](https://khassinx.com/es/legal/your-rights/)** de KhassinX. Los derechos son los mismos en todas las apps de KhassinX, así que los mantenemos en un solo lugar en vez de duplicarlos. Su efecto práctico sobre Vellichor es mínimo: no somos el controlador de datos sobre nada tuyo. Para una consulta formal, escribe a [`legal@khassinx.com`](mailto:legal@khassinx.com).
 
 ## Cambios a esta política
 
@@ -84,6 +84,7 @@ No vamos a expandir retroactivamente lo que recolectamos. Si una feature futura 
 
 ## Contacto
 
-- **Consultas de privacidad**: [hello@khassinx.com](mailto:hello@khassinx.com)
+- **Consultas de privacidad y legal**: [legal@khassinx.com](mailto:legal@khassinx.com)
+- **General**: [hello@khassinx.com](mailto:hello@khassinx.com)
 - **Reportes de seguridad**: [security@khassinx.com](mailto:security@khassinx.com) ([política](/es/security/))
 - **Desarrollador**: KHASSINX LLC, una sociedad de responsabilidad limitada de Florida

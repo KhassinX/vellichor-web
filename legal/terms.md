@@ -5,7 +5,7 @@ permalink: /legal/terms/
 lang: en
 canonical_en: /legal/terms/
 canonical_es: /es/legal/terms/
-updated: 2026-05-27
+updated: 2026-06-09
 redirect_from:
   - /terms/
 ---
@@ -95,5 +95,5 @@ If we change these terms, the new version replaces the old at this URL. The prev
 ## Contact
 
 - **General**: [hello@khassinx.com](mailto:hello@khassinx.com)
-- **Legal**: [hello@khassinx.com](mailto:hello@khassinx.com)
+- **Legal**: [legal@khassinx.com](mailto:legal@khassinx.com)
 - **Developer**: KHASSINX LLC, a Florida limited liability company
