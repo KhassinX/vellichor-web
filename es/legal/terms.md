@@ -18,7 +18,7 @@ Al instalar o usar Vellichor, aceptas estos términos. Si no estás de acuerdo, 
 
 ## La app
 
-Vellichor es una aplicación para iOS, iPadOS, macOS y watchOS que usa **Apple Intelligence Foundation Models en tu dispositivo** para resumir documentos PDF, responder preguntas sobre su contenido y transcribir anotaciones manuscritas.
+Vellichor es una aplicación para iOS, iPadOS y macOS que usa **Apple Intelligence Foundation Models en tu dispositivo** para resumir documentos PDF y responder preguntas sobre su contenido.
 
 La app se distribuye exclusivamente a través de la Apple App Store. El acuerdo estándar de licencia de Apple para usuario final (el "Licensed Application End User License Agreement") también aplica al uso de Vellichor; en caso de conflicto entre estos términos y el EULA de Apple, prevalece el EULA de Apple en lo que esté dentro de su alcance.
 

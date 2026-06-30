@@ -1,6 +1,6 @@
 # vellichor-web
 
-Source for **vellichor.khassinx.com** — the public web property for **Vellichor**, a PDF Q&A app powered by Apple Intelligence on-device, for iPhone, iPad, Mac, and Apple Watch.
+Source for **vellichor.khassinx.com** — the public web property for **Vellichor**, a PDF Q&A app powered by Apple Intelligence on-device, for iPhone, iPad, and Mac.
 
 ## What lives here
 

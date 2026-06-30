@@ -5,7 +5,7 @@ permalink: /es/legal/privacy/
 lang: es
 canonical_en: /legal/privacy/
 canonical_es: /es/legal/privacy/
-updated: 2026-06-09
+updated: 2026-06-28
 ---
 
 # Política de Privacidad
@@ -28,7 +28,7 @@ La escribimos en lenguaje claro porque queremos que la leas de verdad.
 
 ### Documentos (tus PDFs)
 
-Vellichor lee los PDFs que importas desde Archivos, Compartir, escaneos con la cámara, drag-and-drop o iCloud Drive. Estos documentos se guardan:
+Vellichor lee los PDFs que importas desde Archivos, Compartir, arrastrar y soltar o iCloud Drive. Estos documentos se guardan:
 
 - **En tu dispositivo**, dentro del contenedor de aplicación de Vellichor
 - **En tu iCloud Drive personal** bajo la carpeta de Vellichor, si activas sync iCloud (así los mismos documentos aparecen en tus otros dispositivos Apple)
@@ -45,7 +45,7 @@ Cuando le haces una pregunta a Vellichor sobre un PDF, esa pregunta la procesa A
 
 ### Anotaciones, highlights y notas
 
-Todo lo que marcas — highlights de texto, notas tipeadas, escritura a mano con Apple Pencil — se guarda en la base privada de CloudKit bajo tu Apple ID. La base privada de CloudKit está cifrada de extremo a extremo; solo tus dispositivos pueden leerla. Nosotros no.
+Todo lo que marcas — highlights de texto y notas tipeadas — se guarda en la base privada de CloudKit bajo tu Apple ID. La base privada de CloudKit está cifrada de extremo a extremo; solo tus dispositivos pueden leerla. Nosotros no.
 
 ### Estado de suscripción / compra
 
