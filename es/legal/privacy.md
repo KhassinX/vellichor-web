@@ -45,7 +45,7 @@ Cuando le haces una pregunta a Vellichor sobre un PDF, esa pregunta la procesa A
 
 ### Anotaciones, highlights y notas
 
-Todo lo que marcas — highlights de texto, notas tipeadas, escritura a mano con Apple Pencil — se guarda en la base privada de CloudKit bajo tu Apple ID. La base privada de CloudKit está cifrada de extremo a extremo; solo tus dispositivos pueden leerla. Nosotros no.
+Todo lo que marcas — highlights de texto y notas tipeadas — se guarda en la base privada de CloudKit bajo tu Apple ID. La base privada de CloudKit está cifrada de extremo a extremo; solo tus dispositivos pueden leerla. Nosotros no.
 
 ### Estado de suscripción / compra
 

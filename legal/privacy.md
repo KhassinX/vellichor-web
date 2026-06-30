@@ -38,7 +38,7 @@ If you do not agree with this policy, do not use Vellichor. Continued use indica
 Vellichor does not collect, transmit, or store on our servers:
 
 - The content of your PDF documents
-- Your annotations (highlights, ink, notes)
+- Your annotations (highlights, notes)
 - Your AI conversation history
 - Your IP address
 - Your geolocation
@@ -86,7 +86,7 @@ You control whether your documents sync across your Apple devices via iCloud. Wh
 
 - PDF documents themselves: stored in **your iCloud Drive** (your iCloud account, your storage quota)
 - Document metadata (titles, import date, last opened): syncs via **CloudKit Private Database** to container `iCloud.com.khassinx.vellichor`
-- Annotations (highlights, ink, notes): CloudKit Private Database
+- Annotations (highlights, notes): CloudKit Private Database
 - AI conversation history per document: CloudKit Private Database
 
 ### 3.2 What does NOT sync
@@ -148,7 +148,7 @@ On devices that don't support Apple Intelligence, AI features are gracefully dis
 
 ## 6. App Store and payment processing
 
-- All purchases (Pro Unlock IAP, $24.99 one-time) are processed by Apple via the App Store
+- All purchases (Pro Unlock IAP, $14.99 one-time) are processed by Apple via the App Store
 - Apple receives your payment information; Vellichor never sees it
 - Apple receives the purchase receipt; Vellichor verifies receipts on-device using `StoreKit 2`
 - Restore Purchases works via Apple's standard receipt mechanism (no network calls to our servers, because we have none)
