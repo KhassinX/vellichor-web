@@ -57,7 +57,7 @@
     "url": {{ site.url | jsonify }},
     "description": {{ site.description | jsonify }},
     "applicationCategory": "Productivity",
-    "operatingSystem": "iOS, iPadOS, macOS, watchOS",
+    "operatingSystem": "iOS, iPadOS, macOS",
     "publisher": { "@type": "Organization", "name": {{ site.org.name | default: "KhassinX" | jsonify }}, "legalName": {{ site.org.legal_name | default: "KHASSINX LLC" | jsonify }}, "url": "https://khassinx.com" }
   }
   </script>{% endif %}
