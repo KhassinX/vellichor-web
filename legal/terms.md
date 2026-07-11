@@ -5,7 +5,7 @@ permalink: /legal/terms/
 lang: en
 canonical_en: /legal/terms/
 canonical_es: /es/legal/terms/
-updated: 2026-06-09
+updated: 2026-07-11
 redirect_from:
   - /terms/
 ---
@@ -22,7 +22,7 @@ By installing or using Vellichor, you agree to these terms. If you do not agree,
 
 Vellichor is an iOS, iPadOS, and macOS application that uses **Apple Intelligence Foundation Models on your device** to summarize PDF documents and answer questions about their content.
 
-The app is distributed exclusively through the Apple App Store. Apple's standard end-user license agreement (the "Licensed Application End User License Agreement") also applies to your use of Vellichor; in case of conflict between these terms and Apple's EULA, Apple's EULA prevails for matters within its scope.
+The app is distributed exclusively through the App Store. Apple's standard end-user license agreement (the "Licensed Application End User License Agreement") also applies to your use of Vellichor; in case of conflict between these terms and Apple's EULA, Apple's EULA prevails for matters within its scope.
 
 ## License
 
@@ -91,6 +91,22 @@ These terms are governed by the laws of the State of Florida, United States, whe
 ## Changes to these terms
 
 If we change these terms, the new version replaces the old at this URL. The previous version remains accessible via the GitHub commit history of this site. Material changes will be flagged in the app's release notes.
+
+## Availability and unofficial installs
+
+Vellichor is distributed exclusively through the App Store, and only in the territories where we choose to offer it. If you obtain, install, or use the app through any other channel — including sideloading, jailbroken devices, or circumventing App Store security or regional restrictions — that use is unauthorized and unsupported: we are not responsible for it, we provide no warranty or support for it, and complying with the laws that apply to you is solely your responsibility.
+
+## Indemnification
+
+You agree to indemnify and hold KHASSINX LLC harmless from claims, damages, and reasonable attorneys' fees arising from your violation of these terms or your misuse of the app, to the extent permitted by the law that applies to you.
+
+## Disputes
+
+Before filing any claim, you agree to email [`legal@khassinx.com`](mailto:legal@khassinx.com) and give us sixty days to try to resolve the dispute informally. Except where the law gives you the right to sue elsewhere (including small-claims court), disputes will be resolved in the state or federal courts located in Florida, and each of us consents to their jurisdiction. To the extent permitted by law, claims may only be brought individually, not as part of a class or representative action. If you are a consumer in a jurisdiction whose law grants you mandatory protections, those protections remain yours.
+
+## General terms
+
+If part of these terms is found unenforceable, the rest remains in effect. Our failure to enforce a provision is not a waiver. You may not assign these terms; we may assign them as part of a reorganization or transfer of the service. We are not responsible for delay or failure caused by events beyond our reasonable control. These terms are published in English and Español; if the versions ever conflict, the English version controls.
 
 ## Contact
 
