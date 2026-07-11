@@ -5,6 +5,19 @@ description: Pregúntale a tus PDFs y recibe respuestas citadas a la página exa
 lang: es
 canonical_en: /
 canonical_es: /es/
+faq:
+  - q: "¿El contenido de mis PDFs sale de mi dispositivo?"
+    a: "No. Apple Intelligence Foundation Models leen tus PDFs dentro de tu dispositivo. Tu contenido nunca se sube a nuestros servidores ni a ninguna IA en la nube — no tenemos servidores. Si activas la sincronización, tus archivos viajan solo por tu propio iCloud cifrado."
+  - q: "¿Necesito conexión a internet?"
+    a: "No. La lectura, la búsqueda y las respuestas de IA se ejecutan en tu dispositivo, así que Vellichor funciona sin conexión — en un avión, en un archivo histórico, donde sea."
+  - q: "¿Qué necesito para usar Vellichor?"
+    a: "Vellichor funciona con iOS 26.5, iPadOS 26.5 y macOS 26.5 o posteriores. Las funciones de IA requieren Apple Intelligence: un iPhone 15 Pro o más reciente, un iPad compatible con Apple Intelligence o una Mac con Apple Silicon (M1 o posterior)."
+  - q: "¿Qué pasa si mi dispositivo no es compatible con Apple Intelligence?"
+    a: "La lectura, las anotaciones y la búsqueda siguen funcionando. Las funciones de IA se muestran como no disponibles en lugar de fallar en silencio."
+  - q: "¿Vellichor es una suscripción?"
+    a: "No. Es un pago único con Family Sharing activado por defecto — una compra cubre hasta seis miembros de tu familia. Sin renovaciones, sin cargos sorpresa y sin vencimiento."
+  - q: "¿Cómo funciona la sincronización?"
+    a: "La sincronización usa únicamente tu propio iCloud cifrado (base de datos privada de CloudKit e iCloud Drive). Ningún servidor de KhassinX participa."
 ---
 
 <section class="hero">
@@ -57,7 +70,21 @@ canonical_es: /es/
 
 <section class="section">
   <div class="container container-narrow">
+    <h2>Preguntas frecuentes</h2>
+    {% for item in page.faq %}
+    <h3>{{ item.q }}</h3>
+    <p class="text-secondary">{{ item.a }}</p>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="section section-tinted">
+  <div class="container container-narrow">
     <h2>Qué encuentras en este sitio</h2>
     <p class="text-secondary">Esta página aloja las políticas públicas y los recursos de prensa de Vellichor. Para ver cómo Vellichor maneja datos, mira <a href="/es/legal/privacy/">Privacidad</a>. Para los términos de uso de la app, mira <a href="/es/legal/terms/">Términos</a>. Para reportar vulnerabilidades, mira <a href="/es/security/">Seguridad</a>. Para consultas de medios y recursos de prensa, mira <a href="/es/press/">Prensa</a>.</p>
   </div>
 </section>
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{% for item in page.faq %}{"@type":"Question","name":{{ item.q | jsonify }},"acceptedAnswer":{"@type":"Answer","text":{{ item.a | jsonify }}}}{% unless forloop.last %},{% endunless %}{% endfor %}]}
+</script>
