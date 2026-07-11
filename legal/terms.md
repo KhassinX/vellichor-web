@@ -22,7 +22,7 @@ By installing or using Vellichor, you agree to these terms. If you do not agree,
 
 Vellichor is an iOS, iPadOS, and macOS application that uses **Apple Intelligence Foundation Models on your device** to summarize PDF documents and answer questions about their content.
 
-The app is distributed exclusively through the Apple App Store. Apple's standard end-user license agreement (the "Licensed Application End User License Agreement") also applies to your use of Vellichor; in case of conflict between these terms and Apple's EULA, Apple's EULA prevails for matters within its scope.
+The app is distributed exclusively through the App Store. Apple's standard end-user license agreement (the "Licensed Application End User License Agreement") also applies to your use of Vellichor; in case of conflict between these terms and Apple's EULA, Apple's EULA prevails for matters within its scope.
 
 ## License
 

@@ -18,7 +18,7 @@ redirect_from:
 
 ## Introduction
 
-Vellichor is a PDF reading and question-answering app for Apple platforms (iPhone, iPad, and Mac) built on a single guarantee: **your content is never sent to our servers or any cloud AI — we have none.** Your documents may sync, at your option, only through your own encrypted iCloud (see §3). This Privacy Policy explains what data Vellichor handles, where it lives, and what we do — and do not do — with it.
+Vellichor is a PDF reading and question-answering app for Apple platforms (iPhone, iPad, and Mac) built on a single design principle: **your content is never sent to our servers or any cloud AI — we have none.** Your documents may sync, at your option, only through your own encrypted iCloud (see §3). This Privacy Policy explains what data Vellichor handles, where it lives, and what we do — and do not do — with it.
 
 If you do not agree with this policy, do not use Vellichor. Continued use indicates acceptance.
 
