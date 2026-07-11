@@ -5,7 +5,7 @@ permalink: /legal/privacy/
 lang: en
 canonical_en: /legal/privacy/
 canonical_es: /es/legal/privacy/
-updated: 2026-06-28
+updated: 2026-07-11
 redirect_from:
   - /privacy/
 ---
@@ -195,6 +195,14 @@ In Vellichor specifically, you can exercise them directly — most without conta
 To make a formal request or lodge a question, email [`legal@khassinx.com`](mailto:legal@khassinx.com) — though we will likely respond "we don't have it," because we don't.
 
 ---
+
+## This website
+
+This site is static. It sets no cookies of its own, runs no analytics or tracking of any kind, embeds no third-party scripts or pixels, and has no forms. We do not track anyone, so there is nothing for a "Do Not Track" signal to turn off, and no third party is permitted to collect information about your activity across sites through this website. The site is served by GitHub Pages with DNS and delivery by Cloudflare; like any web host, those providers process standard technical request data (such as your IP address) to deliver and protect the site, as independent companies under their own privacy policies. We do not receive, keep, or use that data.
+
+## Email you send us
+
+If you email us, we receive your email address and your message. We use them only to reply and to fix what you reported — no lists, no marketing, no sharing. Support correspondence is kept only as long as needed to help you and for our legal obligations, and you can ask us to delete it at any time at [`legal@khassinx.com`](mailto:legal@khassinx.com).
 
 ## 10. Contact + EU representative
 
