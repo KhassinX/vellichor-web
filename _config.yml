@@ -41,7 +41,7 @@ nav:
       url: /es/press/
 
 # Footer — orden canónico del Legal Trust Hub (WEB_PROPERTY_SPEC §10.3):
-# Privacy · Terms · Legal · Security · Contact. Prensa vive en el nav superior.
+# Privacy · Terms · Legal · Security · Support · Contact. Prensa vive en el nav superior.
 footer_nav:
   en:
     - title: Privacy
@@ -52,6 +52,8 @@ footer_nav:
       url: /legal/
     - title: Security
       url: /security/
+    - title: Support
+      url: /support/
     - title: Contact
       url: /contact/
   es:
@@ -63,6 +65,8 @@ footer_nav:
       url: /es/legal/
     - title: Seguridad
       url: /es/security/
+    - title: Soporte
+      url: /es/support/
     - title: Contacto
       url: /es/contact/
 
