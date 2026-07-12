@@ -35,3 +35,7 @@ Short aliases: [/privacy/](/legal/privacy/) · [/terms/](/legal/terms/)
 These legal documents are released under **CC0 1.0** (public domain dedication) — feel free to adapt for your own on-device-AI apps. They reflect a zero-collection, one-time-purchase architecture that may not apply to apps with different data practices.
 
 The Vellichor app itself is **proprietary** and not covered by this CC0 dedication.
+
+## Trademarks
+
+Apple, iPhone, iPad, Mac, Apple Watch, Apple Pencil, App Store, iCloud, CloudKit, Siri, iPadOS, and macOS are trademarks of Apple Inc., registered in the U.S. and other countries. Apple Intelligence and Liquid Glass are trademarks of Apple Inc. IOS is a trademark or registered trademark of Cisco in the U.S. and other countries and is used under license. KhassinX and Vellichor are trademarks of KHASSINX LLC. All other trademarks are the property of their respective owners.

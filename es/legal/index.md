@@ -33,3 +33,7 @@ Para los derechos de privacidad que tienes bajo el RGPD, el RGPD del Reino Unido
 Estos documentos legales están publicados bajo **CC0 1.0** (dedicación al dominio público) — puedes adaptarlos para tus propias apps de IA on-device. Reflejan una arquitectura de cero recolección y compra única que tal vez no se ajuste a apps con otras prácticas de datos.
 
 La app Vellichor en sí es **propietaria** y no está cubierta por esta dedicación CC0.
+
+## Marcas comerciales
+
+Apple, iPhone, iPad, Mac, Apple Watch, Apple Pencil, App Store, iCloud, CloudKit, Siri, iPadOS y macOS son marcas comerciales de Apple Inc., registradas en EE. UU. y otros países. Apple Intelligence y Liquid Glass son marcas comerciales de Apple Inc. IOS es una marca comercial o marca registrada de Cisco en EE. UU. y otros países y se utiliza bajo licencia. KhassinX y Vellichor son marcas comerciales de KHASSINX LLC. Las demás marcas comerciales pertenecen a sus respectivos propietarios.
