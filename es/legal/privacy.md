@@ -33,7 +33,7 @@ Vellichor lee los PDFs que importas desde Archivos, Compartir, arrastrar y solta
 - **En tu dispositivo**, dentro del contenedor de aplicación de Vellichor
 - **En tu iCloud Drive personal** bajo la carpeta de Vellichor, si activas sync iCloud (así los mismos documentos aparecen en tus otros dispositivos Apple)
 
-Nosotros — KhassinX — no tenemos acceso a esos documentos en ningún momento. Nunca llegan a un servidor que controlemos. Tampoco llegan a servidores de Apple en forma legible; iCloud Drive usa cifrado de extremo a extremo atado a tu Apple ID.
+Nosotros — KhassinX — no tenemos acceso a esos documentos en ningún momento. Nunca llegan a un servidor que controlemos. Tampoco llegan a servidores de Apple en forma legible; iCloud Drive usa cifrado de extremo a extremo atado a tu Cuenta de Apple.
 
 ### Las preguntas que haces y las respuestas que Vellichor genera
 
@@ -45,7 +45,7 @@ Cuando le haces una pregunta a Vellichor sobre un PDF, esa pregunta la procesa A
 
 ### Anotaciones, highlights y notas
 
-Todo lo que marcas — highlights de texto y notas tipeadas — se guarda en la base privada de CloudKit bajo tu Apple ID. La base privada de CloudKit está cifrada de extremo a extremo; solo tus dispositivos pueden leerla. Nosotros no.
+Todo lo que marcas — highlights de texto y notas tipeadas — se guarda en la base privada de CloudKit bajo tu Cuenta de Apple. La base privada de CloudKit está cifrada de extremo a extremo; solo tus dispositivos pueden leerla. Nosotros no.
 
 ### Estado de suscripción / compra
 
@@ -72,7 +72,7 @@ Vellichor tiene clasificación 4+ y no contiene contenido objetable. No recolect
 
 ## Tus derechos
 
-Como no recolectamos datos, no hay nada que podamos acceder, corregir, eliminar ni exportar a tu pedido. Por supuesto, puedes eliminar la app y (por separado) borrar sus datos de iCloud de tu Apple ID en cualquier momento.
+Como no recolectamos datos, no hay nada que podamos acceder, corregir, eliminar ni exportar a tu pedido. Por supuesto, puedes eliminar la app y (por separado) borrar sus datos de iCloud de tu Cuenta de Apple en cualquier momento.
 
 El conjunto completo de derechos que tienes según tu jurisdicción (RGPD en la UE/EEE, RGPD del Reino Unido, LOPDGDD de España, CCPA/CPRA en California, otros estados de EE. UU., LGPD en Brasil y otras) — y los canales para ejercerlos — vive en el **[Centro de Derechos de Privacidad](https://khassinx.com/es/legal/your-rights/)** de KhassinX. Los derechos son los mismos en todas las apps de KhassinX, así que los mantenemos en un solo lugar en vez de duplicarlos. Su efecto práctico sobre Vellichor es mínimo: no somos el controlador de datos sobre nada tuyo. Para una consulta formal, escribe a [`legal@khassinx.com`](mailto:legal@khassinx.com).
 
