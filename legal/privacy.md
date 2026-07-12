@@ -43,7 +43,7 @@ Vellichor does not collect, transmit, or store on our servers:
 - Your IP address
 - Your geolocation
 - Your device serial number or persistent identifiers
-- Your name, email, or contact information (beyond Apple ID required for App Store purchase, handled entirely by Apple)
+- Your name, email, or contact information (beyond Apple Account required for App Store purchase, handled entirely by Apple)
 - Behavioral analytics tied to your identity
 - Cookies or web tracking pixels
 
@@ -189,7 +189,7 @@ In Vellichor specifically, you can exercise them directly — most without conta
 
 - **Access your data**: it's already on your device — open Vellichor and view everything
 - **Export your data**: your PDFs are already standard files you can share anywhere; Vellichor can also export your AI conversations to Markdown
-- **Delete your data**: delete documents in-app, or uninstall Vellichor — all locally stored data is removed; iCloud data follows Apple's standard retention, and you can delete it from your Apple ID at any time
+- **Delete your data**: delete documents in-app, or uninstall Vellichor — all locally stored data is removed; iCloud data follows Apple's standard retention, and you can delete it from your Apple Account at any time
 - **Revoke iCloud access**: iOS Settings → iCloud → Vellichor → off
 
 To make a formal request or lodge a question, email [`legal@khassinx.com`](mailto:legal@khassinx.com) — though we will likely respond "we don't have it," because we don't.
