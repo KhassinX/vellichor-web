@@ -99,7 +99,14 @@
     <div class="container">
       <a href="{{ logo_home | relative_url }}" class="logo">
         {% if site.logo %}<img src="{{ site.logo | relative_url }}" alt="{{ site.title }} logo">{% endif %}
-        <span>{{ site.title }}</span>
+        {%- comment -%}
+          ™ on the header wordmark: our own unregistered mark (BRAND_SYSTEM §7 / WEB_PROPERTY_SPEC §4.6,
+          norma 2026-07-17). It stays a literal on the visible span ONLY — `site.title` feeds <title>,
+          og:title, alt text and JSON-LD name, where a ™ would leak into SEO and read as "trademark" to
+          screen readers. `aria-hidden` keeps assistive tech saying just "Vellichor". Once per page, on the
+          first prominent mark — never ® (no federal registration = false marking).
+        {%- endcomment -%}
+        <span>{{ site.title }}<span class="tm" aria-hidden="true">™</span></span>
       </a>
       <nav class="site-nav" aria-label="Primary">
         {% for item in nav_items %}
