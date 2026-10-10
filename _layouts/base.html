@@ -44,12 +44,20 @@
   {%- endcomment -%}
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; base-uri 'self'; form-action 'self'">
 
+  <link rel="icon" href="/assets/favicons/favicon.ico" sizes="any">
   {% if site.favicon_svg %}<link rel="icon" type="image/svg+xml" href="{{ site.favicon_svg }}">{% endif %}
   {% if site.favicon_32 %}<link rel="icon" type="image/png" sizes="32x32" href="{{ site.favicon_32 }}">{% endif %}
   {% if site.favicon_16 %}<link rel="icon" type="image/png" sizes="16x16" href="{{ site.favicon_16 }}">{% endif %}
   {% if site.apple_touch_icon %}<link rel="apple-touch-icon" sizes="180x180" href="{{ site.apple_touch_icon }}">{% endif %}
   <link rel="manifest" href="/site.webmanifest">
   <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+
+  {%- comment -%} Apple PWA + A2HS (WEB_PROPERTY_SPEC §4.5) {%- endcomment -%}
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="{{ site.short_name | default: site.title }}">
+  <meta name="application-name" content="{{ site.short_name | default: site.title }}">
 
   {%- comment -%} JSON-LD — SoftwareApplication (rich results) {%- endcomment -%}
   {% if site.org %}<script type="application/ld+json">
