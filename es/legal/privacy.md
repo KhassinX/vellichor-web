@@ -12,7 +12,7 @@ updated: 2026-07-11
 
 **Fecha de vigencia: 2026-06-09**
 
-Esta es la política de privacidad de **Vellichor**, una app de Q&A sobre PDFs para plataformas Apple desarrollada por **KhassinX** (KHASSINX LLC, una sociedad de responsabilidad limitada de Florida).
+Esta es la política de privacidad de **Vellichor**, una app de Q&A sobre PDFs para plataformas Apple desarrollada por **KHASSINX** (KHASSINX LLC, una sociedad de responsabilidad limitada de Florida).
 
 La escribimos en lenguaje claro porque queremos que la leas de verdad.
 
@@ -33,7 +33,7 @@ Vellichor lee los PDFs que importas desde Archivos, Compartir, arrastrar y solta
 - **En tu dispositivo**, dentro del contenedor de aplicación de Vellichor
 - **En tu iCloud Drive personal** bajo la carpeta de Vellichor, si activas sync iCloud (así los mismos documentos aparecen en tus otros dispositivos Apple)
 
-Nosotros — KhassinX — no tenemos acceso a esos documentos en ningún momento. Nunca llegan a un servidor que controlemos. Tampoco llegan a servidores de Apple en forma legible; iCloud Drive usa cifrado de extremo a extremo atado a tu Cuenta de Apple.
+Nosotros — KHASSINX — no tenemos acceso a esos documentos en ningún momento. Nunca llegan a un servidor que controlemos. Tampoco llegan a servidores de Apple en forma legible; iCloud Drive usa cifrado de extremo a extremo atado a tu Cuenta de Apple.
 
 ### Las preguntas que haces y las respuestas que Vellichor genera
 
@@ -74,7 +74,7 @@ Vellichor tiene clasificación 4+ y no contiene contenido objetable. No recolect
 
 Como no recolectamos datos, no hay nada que podamos acceder, corregir, eliminar ni exportar a tu pedido. Por supuesto, puedes eliminar la app y (por separado) borrar sus datos de iCloud de tu Cuenta de Apple en cualquier momento.
 
-El conjunto completo de derechos que tienes según tu jurisdicción (RGPD en la UE/EEE, RGPD del Reino Unido, LOPDGDD de España, CCPA/CPRA en California, otros estados de EE. UU., LGPD en Brasil y otras) — y los canales para ejercerlos — vive en el **[Centro de Derechos de Privacidad](https://khassinx.com/es/legal/your-rights/)** de KhassinX. Los derechos son los mismos en todas las apps de KhassinX, así que los mantenemos en un solo lugar en vez de duplicarlos. Su efecto práctico sobre Vellichor es mínimo: no somos el controlador de datos sobre nada tuyo. Para una consulta formal, escribe a [`legal@khassinx.com`](mailto:legal@khassinx.com).
+El conjunto completo de derechos que tienes según tu jurisdicción (RGPD en la UE/EEE, RGPD del Reino Unido, LOPDGDD de España, CCPA/CPRA en California, otros estados de EE. UU., LGPD en Brasil y otras) — y los canales para ejercerlos — vive en el **[Centro de Derechos de Privacidad](https://khassinx.com/es/legal/your-rights/)** de KHASSINX. Los derechos son los mismos en todas las apps de KHASSINX, así que los mantenemos en un solo lugar en vez de duplicarlos. Su efecto práctico sobre Vellichor es mínimo: no somos el controlador de datos sobre nada tuyo. Para una consulta formal, escribe a [`legal@khassinx.com`](mailto:legal@khassinx.com).
 
 ## Cambios a esta política
 

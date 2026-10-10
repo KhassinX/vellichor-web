@@ -12,7 +12,7 @@ updated: 2026-07-11
 
 **Fecha de vigencia: 2026-06-09**
 
-Estos son los términos para usar **Vellichor**, una app de Q&A sobre PDFs para plataformas Apple desarrollada por **KhassinX** (KHASSINX LLC, una sociedad de responsabilidad limitada de Florida).
+Estos son los términos para usar **Vellichor**, una app de Q&A sobre PDFs para plataformas Apple desarrollada por **KHASSINX** (KHASSINX LLC, una sociedad de responsabilidad limitada de Florida).
 
 Al instalar o usar Vellichor, aceptas estos términos. Si no estás de acuerdo, no uses la app.
 

@@ -183,7 +183,7 @@ Your data goes nowhere except where you explicitly send it (e.g., the Share Shee
 
 ## 9. Your rights
 
-For the full set of rights you have under GDPR (EU/EEA), the UK GDPR, Spain's LOPDGDD, California's CCPA/CPRA, other US states, and elsewhere — and the channels to exercise them — see KhassinX's **[Privacy Rights Center](https://khassinx.com/legal/your-rights/)**. The rights are the same across every KhassinX app, so we maintain them in one place rather than duplicating them here.
+For the full set of rights you have under GDPR (EU/EEA), the UK GDPR, Spain's LOPDGDD, California's CCPA/CPRA, other US states, and elsewhere — and the channels to exercise them — see KHASSINX's **[Privacy Rights Center](https://khassinx.com/legal/your-rights/)**. The rights are the same across every KHASSINX app, so we maintain them in one place rather than duplicating them here.
 
 In Vellichor specifically, you can exercise them directly — most without contacting anyone, because the data is already yours:
 
@@ -216,16 +216,16 @@ For privacy questions:
 
 KHASSINX LLC (a Florida limited liability company), the operator of Vellichor and a non-EU controller offering services to EU users, makes the following declaration:
 
-Vellichor's architecture is **zero-collection on Vellichor's side** — no personal data is transmitted to KhassinX servers (because there are no KhassinX servers). All document processing, AI Q&A, search indexing, and diagnostics occur exclusively on the user's Apple device, never reach KhassinX systems, and fall outside the territorial scope clarifications of GDPR Art. 3(2) for "processing" by the controller.
+Vellichor's architecture is **zero-collection on Vellichor's side** — no personal data is transmitted to KHASSINX servers (because there are no KHASSINX servers). All document processing, AI Q&A, search indexing, and diagnostics occur exclusively on the user's Apple device, never reach KHASSINX systems, and fall outside the territorial scope clarifications of GDPR Art. 3(2) for "processing" by the controller.
 
 **However**, to maximize defensibility and respect EU users' rights:
 - We are evaluating designation of an EU representative per Art. 27. Pending designation, this section serves as transparent disclosure.
 - EU users may exercise their GDPR rights by contacting [`legal@khassinx.com`](mailto:legal@khassinx.com), or via the [Privacy Rights Center](https://khassinx.com/legal/your-rights/).
-- A formal EU representative will be designated before any feature is added that would qualify as KhassinX-side processing of personal data.
+- A formal EU representative will be designated before any feature is added that would qualify as KHASSINX-side processing of personal data.
 
 ### Data Protection Officer / Brazilian Encarregado (LGPD)
 
-- **DPO / Encarregado**: KhassinX Privacy Office
+- **DPO / Encarregado**: KHASSINX Privacy Office
 - **Contact**: [legal@khassinx.com](mailto:legal@khassinx.com)
 - **LGPD rights** (Art. 18): access, correction, deletion, portability, anonymization, objection — exercisable via the contact above.
 
@@ -260,4 +260,4 @@ This policy does NOT constitute legal advice. For jurisdiction-specific advice, 
 
 ---
 
-*Vellichor is built by KhassinX. We respect your privacy because you trusted us with your documents. Thank you.*
+*Vellichor is built by KHASSINX. We respect your privacy because you trusted us with your documents. Thank you.*

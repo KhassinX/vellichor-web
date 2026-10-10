@@ -14,7 +14,7 @@ redirect_from:
 
 **Effective date: 2026-05-27**
 
-These are the terms for using **Vellichor**, a PDF Q&A app for Apple platforms built by **KhassinX** (KHASSINX LLC, a Florida limited liability company).
+These are the terms for using **Vellichor**, a PDF Q&A app for Apple platforms built by **KHASSINX** (KHASSINX LLC, a Florida limited liability company).
 
 By installing or using Vellichor, you agree to these terms. If you do not agree, do not use the app.
 
