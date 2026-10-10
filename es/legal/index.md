@@ -16,7 +16,7 @@ Documentos legales públicos de **Vellichor**.
 - **[Términos de uso](/es/legal/terms/)** — términos para usar la app y su desbloqueo de pago único
 - **[Seguridad y reportes responsables](/es/security/)** — cómo reportar vulnerabilidades
 
-Para los derechos de privacidad que tienes bajo el RGPD, el RGPD del Reino Unido, la LOPDGDD de España, la CCPA de California, otros estados de EE. UU. y otras jurisdicciones — y cómo ejercerlos — consulta el [Centro de Derechos de Privacidad](https://khassinx.com/es/legal/your-rights/) de KhassinX.
+Para los derechos de privacidad que tienes bajo el RGPD, el RGPD del Reino Unido, la LOPDGDD de España, la CCPA de California, otros estados de EE. UU. y otras jurisdicciones — y cómo ejercerlos — consulta el [Centro de Derechos de Privacidad](https://khassinx.com/es/legal/your-rights/) de KHASSINX.
 
 ---
 
@@ -36,4 +36,4 @@ La app Vellichor en sí es **propietaria** y no está cubierta por esta dedicaci
 
 ## Marcas comerciales
 
-Apple, iPhone, iPad, Mac, Apple Watch, Apple Pencil, App Store, iCloud, CloudKit, Siri, iPadOS y macOS son marcas comerciales de Apple Inc., registradas en EE. UU. y otros países. Apple Intelligence y Liquid Glass son marcas comerciales de Apple Inc. IOS es una marca comercial o marca registrada de Cisco en EE. UU. y otros países y se utiliza bajo licencia. KhassinX y Vellichor son marcas comerciales de KHASSINX LLC. Las demás marcas comerciales pertenecen a sus respectivos propietarios.
+Apple, iPhone, iPad, Mac, Apple Watch, Apple Pencil, App Store, iCloud, CloudKit, Siri, iPadOS y macOS son marcas comerciales de Apple Inc., registradas en EE. UU. y otros países. Apple Intelligence y Liquid Glass son marcas comerciales de Apple Inc. IOS es una marca comercial o marca registrada de Cisco en EE. UU. y otros países y se utiliza bajo licencia. KHASSINX y Vellichor son marcas comerciales de KHASSINX LLC. Las demás marcas comerciales pertenecen a sus respectivos propietarios.

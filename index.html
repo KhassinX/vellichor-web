@@ -17,22 +17,22 @@ faq:
   - q: "Is Vellichor a subscription?"
     a: "No. Vellichor is a one-time $14.99 unlock with Family Sharing on by default — one purchase covers up to six family members. No renewal, no surprise charge, no expiry."
   - q: "How does sync work?"
-    a: "Sync uses only your own encrypted iCloud (CloudKit Private Database and iCloud Drive). No KhassinX servers are involved."
+    a: "Sync uses only your own encrypted iCloud (CloudKit Private Database and iCloud Drive). No KHASSINX servers are involved."
 ---
 
 <section class="hero">
-  <div class="container">
+  <div class="wrap">
     <h1>Ask your PDFs.<br>Privately.</h1>
     <p class="lead">Vellichor reads, summarizes, and answers questions about your PDFs using Apple Intelligence — entirely on your device. Papers, contracts, books, manuals. Your content is never sent to our servers or any cloud AI — we have none. Your files sync, if you choose, only through your own encrypted iCloud.</p>
     <div class="cta">
-      <span class="text-tertiary">Coming soon to the App Store · $14.99 once · iPhone, iPad &amp; Mac · Family Sharing</span>
+      <span class="meta">Coming soon to the App Store · $14.99 once · iPhone, iPad &amp; Mac · Family Sharing</span>
     </div>
-    <p class="text-secondary" style="margin-top: var(--space-xl); font-size: var(--fs-body-s);">Vellichor is built by <a href="https://khassinx.com">KhassinX</a>, an independent studio for privacy-first Apple platform apps.</p>
+    <p class="quiet" style="margin-top: var(--khassinx-s-5); font-size: var(--khassinx-t-small);">Vellichor is built by <a href="https://khassinx.com">KHASSINX</a>, an independent studio for privacy-first Apple platform apps.</p>
   </div>
 </section>
 
 <section class="section section-tinted">
-  <div class="container">
+  <div class="wrap">
     <h2>What makes Vellichor different</h2>
     <div class="cards-grid">
       <article class="card">
@@ -69,7 +69,7 @@ faq:
 </section>
 
 <section class="section">
-  <div class="container">
+  <div class="wrap">
     <h2>What we don't do</h2>
     <div class="cards-grid">
       <article class="card">
@@ -96,35 +96,35 @@ faq:
 </section>
 
 <section class="section section-tinted">
-  <div class="container container-narrow">
+  <div class="wrap narrow">
     <h2>Universal Apple</h2>
-    <figure style="margin: var(--space-l) 0 0;">
+    <figure style="margin: var(--khassinx-s-5) 0 0;">
       <img src="/assets/img/mac-library-en.png" alt="The Vellichor library on Mac — a sidebar of documents beside the reading pane, on the parchment theme." width="1440" height="1013" loading="lazy" style="max-width: 100%; height: auto; border-radius: 12px;">
-      <figcaption class="text-tertiary" style="margin-top: var(--space-s); font-size: var(--fs-body-s); text-align: center;">Your library on the Mac.</figcaption>
+      <figcaption class="meta" style="margin-top: var(--khassinx-s-2); font-size: var(--khassinx-t-small); text-align: center;">Your library on the Mac.</figcaption>
     </figure>
-    <figure style="margin: var(--space-l) auto 0; max-width: 300px;">
+    <figure style="margin: var(--khassinx-s-5) auto 0; max-width: 300px;">
       <img src="/assets/img/watch-handoff-en.png" alt="The Apple Watch companion showing a recent document, ready to hand your reading back to iPhone." width="416" height="401" loading="lazy" style="max-width: 100%; height: auto;">
-      <figcaption class="text-tertiary" style="margin-top: var(--space-s); font-size: var(--fs-body-s); text-align: center;">The Apple Watch companion hands your reading back to iPhone.</figcaption>
+      <figcaption class="meta" style="margin-top: var(--khassinx-s-2); font-size: var(--khassinx-t-small); text-align: center;">The Apple Watch companion hands your reading back to iPhone.</figcaption>
     </figure>
-    <p class="text-secondary" style="margin-top: var(--space-l);">One purchase covers iPhone, iPad, and Mac — including the Apple Watch companion — with Family Sharing enabled. Available in English and Spanish (Spain and Latin America) at launch.</p>
-    <p class="text-secondary" style="margin-top: var(--space-m);">Requirements: iPhone 15 Pro or newer for Apple Intelligence features · iPad with Apple Intelligence support · Apple Silicon Mac (M1+) for AI features · iOS 26.5+, iPadOS 26.5+, macOS 26.5+.</p>
+    <p class="quiet" style="margin-top: var(--khassinx-s-5);">One purchase covers iPhone, iPad, and Mac — including the Apple Watch companion — with Family Sharing enabled. Available in English and Spanish (Spain and Latin America) at launch.</p>
+    <p class="quiet" style="margin-top: var(--khassinx-s-3);">Requirements: iPhone 15 Pro or newer for Apple Intelligence features · iPad with Apple Intelligence support · Apple Silicon Mac (M1+) for AI features · iOS 26.5+, iPadOS 26.5+, macOS 26.5+.</p>
   </div>
 </section>
 
 <section class="section">
-  <div class="container container-narrow">
+  <div class="wrap narrow">
     <h2>Common questions</h2>
     {% for item in page.faq %}
     <h3>{{ item.q }}</h3>
-    <p class="text-secondary">{{ item.a }}</p>
+    <p class="quiet">{{ item.a }}</p>
     {% endfor %}
   </div>
 </section>
 
 <section class="section section-tinted">
-  <div class="container container-narrow">
+  <div class="wrap narrow">
     <h2>What this site is for</h2>
-    <p class="text-secondary">This page hosts Vellichor's public policies and press resources. For details on how Vellichor handles data, see <a href="/legal/privacy/">Privacy</a>. For terms of using the app, see <a href="/legal/terms/">Terms</a>. For security disclosure, see <a href="/security/">Security</a>. For media inquiries and press materials, see <a href="/press/">Press</a>.</p>
+    <p class="quiet">This page hosts Vellichor's public policies and press resources. For details on how Vellichor handles data, see <a href="/legal/privacy/">Privacy</a>. For terms of using the app, see <a href="/legal/terms/">Terms</a>. For security disclosure, see <a href="/security/">Security</a>. For media inquiries and press materials, see <a href="/press/">Press</a>.</p>
   </div>
 </section>
 

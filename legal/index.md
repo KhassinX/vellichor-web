@@ -16,7 +16,7 @@ Public legal documents for **Vellichor**.
 - **[Terms of Use](/legal/terms/)** — terms of using the app and its one-time unlock
 - **[Security & Responsible Disclosure](/security/)** — how to report vulnerabilities
 
-For the privacy rights you have under GDPR, the UK GDPR, Spain's LOPDGDD, California's CCPA, other US states, and elsewhere — and how to exercise them — see KhassinX's [Privacy Rights Center](https://khassinx.com/legal/your-rights/).
+For the privacy rights you have under GDPR, the UK GDPR, Spain's LOPDGDD, California's CCPA, other US states, and elsewhere — and how to exercise them — see KHASSINX's [Privacy Rights Center](https://khassinx.com/legal/your-rights/).
 
 Short aliases: [/privacy/](/legal/privacy/) · [/terms/](/legal/terms/)
 
@@ -38,4 +38,4 @@ The Vellichor app itself is **proprietary** and not covered by this CC0 dedicati
 
 ## Trademarks
 
-Apple, iPhone, iPad, Mac, Apple Watch, Apple Pencil, App Store, iCloud, CloudKit, Siri, iPadOS, and macOS are trademarks of Apple Inc., registered in the U.S. and other countries. Apple Intelligence and Liquid Glass are trademarks of Apple Inc. IOS is a trademark or registered trademark of Cisco in the U.S. and other countries and is used under license. KhassinX and Vellichor are trademarks of KHASSINX LLC. All other trademarks are the property of their respective owners.
+Apple, iPhone, iPad, Mac, Apple Watch, Apple Pencil, App Store, iCloud, CloudKit, Siri, iPadOS, and macOS are trademarks of Apple Inc., registered in the U.S. and other countries. Apple Intelligence and Liquid Glass are trademarks of Apple Inc. IOS is a trademark or registered trademark of Cisco in the U.S. and other countries and is used under license. KHASSINX and Vellichor are trademarks of KHASSINX LLC. All other trademarks are the property of their respective owners.
