@@ -1,105 +1,15 @@
 ---
 layout: base
-title: Pregúntale a tus PDFs lo que quieras, en privado
-description: Pregúntale a tus PDFs y recibe respuestas citadas a la página exacta — en el dispositivo, con Apple Intelligence. iPhone, iPad, Mac. Nada va a la nube.
+description: "Vellichor. Un lector de PDF. Pronto en el App Store."
 lang: es
 canonical_en: /
 canonical_es: /es/
-faq:
-  - q: "¿El contenido de mis PDFs sale de mi dispositivo?"
-    a: "No. Apple Intelligence Foundation Models leen tus PDFs dentro de tu dispositivo. Tu contenido nunca se sube a nuestros servidores ni a ninguna IA en la nube — no tenemos servidores. Si activas la sincronización, tus archivos viajan solo por tu propio iCloud cifrado."
-  - q: "¿Necesito conexión a internet?"
-    a: "No. La lectura, la búsqueda y las respuestas de IA se ejecutan en tu dispositivo, así que Vellichor funciona sin conexión — en un avión, en un archivo histórico, donde sea."
-  - q: "¿Qué necesito para usar Vellichor?"
-    a: "Vellichor funciona con iOS 26.5, iPadOS 26.5 y macOS 26.5 o posteriores. Las funciones de IA requieren Apple Intelligence: un iPhone 15 Pro o más reciente, un iPad compatible con Apple Intelligence o una Mac con Apple Silicon (M1 o posterior)."
-  - q: "¿Qué pasa si mi dispositivo no es compatible con Apple Intelligence?"
-    a: "La lectura, las anotaciones y la búsqueda siguen funcionando. Las funciones de IA se muestran como no disponibles en lugar de fallar en silencio."
-  - q: "¿Vellichor es una suscripción?"
-    a: "No. Es un pago único con Family Sharing activado por defecto — una compra cubre hasta seis miembros de tu familia. Sin renovaciones, sin cargos sorpresa y sin vencimiento."
-  - q: "¿Cómo funciona la sincronización?"
-    a: "La sincronización usa únicamente tu propio iCloud cifrado (base de datos privada de CloudKit e iCloud Drive). Ningún servidor de KHASSINX participa."
 ---
 
 <section class="hero">
   <div class="wrap">
-    <h1>Pregúntale a tus PDFs.<br>En privado.</h1>
-    <p class="lead">Vellichor lee, resume y responde preguntas sobre tus PDFs usando Apple Intelligence — todo dentro de tu dispositivo. Papers, contratos, libros, manuales. Tu contenido nunca se sube a nuestros servidores ni a ninguna IA en la nube; la sincronización es opcional y usa solo tu iCloud cifrado.</p>
-    <div class="cta">
-      <span class="meta">Pronto en el App Store</span>
-    </div>
-    <p class="quiet" style="margin-top: var(--khassinx-s-5); font-size: var(--khassinx-t-small);">Vellichor es desarrollada por <a href="https://khassinx.com/es/">KHASSINX</a>, un estudio independiente dedicado a apps privacy-first para las plataformas de Apple.</p>
+    <h1>Vellichor</h1>
+    <p class="lead">Un lector de PDF. Pronto en el App Store.</p>
+    <p>Contacto: <a href="mailto:hello@khassinx.com">hello@khassinx.com</a> · <a href="/es/legal/">Legal</a></p>
   </div>
 </section>
-
-<section class="section section-tinted">
-  <div class="wrap">
-    <h2>Qué hace distinto a Vellichor</h2>
-    <div class="cards-grid">
-      <article class="card">
-        <h3>100% en el dispositivo</h3>
-        <p>Apple Intelligence Foundation Models leen tus PDFs localmente. El contenido no llega a ningún servidor — ni nuestro ni de nadie más. Funciona sin conexión.</p>
-      </article>
-
-      <article class="card">
-        <h3>Cada respuesta citada</h3>
-        <p>Cada respuesta enlaza a la página exacta del documento fuente. Tocas la cita y vas directo ahí. Cero datos inventados disfrazados de prosa segura.</p>
-      </article>
-
-      <article class="card">
-        <h3>Nativa en cada Apple</h3>
-        <p>iPhone, iPad y Mac — más un companion para Apple Watch que devuelve tu lectura al iPhone. Con widgets, Control Center y Atajos de Siri. Construida sobre iOS 26 Liquid Glass — no es una app de iPad estirada haciéndose pasar por Mac.</p>
-      </article>
-
-      <article class="card">
-        <h3>Lee y anota</h3>
-        <p>Abre cualquier PDF con rendimiento nativo: búsqueda, índice, salto a cualquier página. Cuatro ambientes de lectura — Pergamino, Sepia, Gris y Noche. Resalta pasajes y agrega notas; tu PDF original queda intacto y tus marcas viajan con tu propio iCloud.</p>
-      </article>
-
-      <article class="card">
-        <h3>Precios honestos</h3>
-        <p>Pago único, justo. Sin suscripción. Family Sharing activado por defecto — compras una vez y la usas en todos los dispositivos de tu familia.</p>
-      </article>
-
-      <article class="card">
-        <h3>Diseñada para trabajo confidencial</h3>
-        <p>Para personas cuyos documentos no deberían subirse a una empresa de chatbots: investigadores, abogados, ingenieros, médicos. La privacidad es el producto, no un toggle.</p>
-      </article>
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="wrap narrow">
-    <h2>Preguntas frecuentes</h2>
-    {% for item in page.faq %}
-    <h3>{{ item.q }}</h3>
-    <p class="quiet">{{ item.a }}</p>
-    {% endfor %}
-  </div>
-</section>
-
-<section class="section section-tinted">
-  <div class="wrap narrow">
-    <h2>En todos tus dispositivos Apple</h2>
-    <figure style="margin: var(--khassinx-s-5) 0 0;">
-      <img src="/assets/img/mac-library-es.png" alt="La biblioteca de Vellichor en el Mac — una barra lateral de documentos junto al panel de lectura, con el tema pergamino." width="1440" height="1013" loading="lazy" style="max-width: 100%; height: auto; border-radius: 12px;">
-      <figcaption class="meta" style="margin-top: var(--khassinx-s-2); font-size: var(--khassinx-t-small); text-align: center;">Tu biblioteca en el Mac.</figcaption>
-    </figure>
-    <figure style="margin: var(--khassinx-s-5) auto 0; max-width: 300px;">
-      <img src="/assets/img/watch-handoff-es.png" alt="El companion de Apple Watch mostrando un documento reciente, listo para devolver tu lectura al iPhone." width="416" height="401" loading="lazy" style="max-width: 100%; height: auto;">
-      <figcaption class="meta" style="margin-top: var(--khassinx-s-2); font-size: var(--khassinx-t-small); text-align: center;">El companion de Apple Watch devuelve tu lectura al iPhone.</figcaption>
-    </figure>
-    <p class="quiet" style="margin-top: var(--khassinx-s-5);">Una sola compra cubre iPhone, iPad y Mac — con el companion de Apple Watch incluido — y Family Sharing activado. Disponible en inglés y español (España y Latinoamérica) desde el lanzamiento.</p>
-  </div>
-</section>
-
-<section class="section">
-  <div class="wrap narrow">
-    <h2>Qué encuentras en este sitio</h2>
-    <p class="quiet">Esta página aloja las políticas públicas y los recursos de prensa de Vellichor. Para ver cómo Vellichor maneja datos, mira <a href="/es/legal/privacy/">Privacidad</a>. Para los términos de uso de la app, mira <a href="/es/legal/terms/">Términos</a>. Para reportar vulnerabilidades, mira <a href="/es/security/">Seguridad</a>. Para consultas de medios y recursos de prensa, mira <a href="/es/press/">Prensa</a>.</p>
-  </div>
-</section>
-
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{% for item in page.faq %}{"@type":"Question","name":{{ item.q | jsonify }},"acceptedAnswer":{"@type":"Answer","text":{{ item.a | jsonify }}}}{% unless forloop.last %},{% endunless %}{% endfor %}]}
-</script>
