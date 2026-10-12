@@ -1,6 +1,6 @@
 ---
 layout: prose
-title: Vellichor — Legal
+title: Legal
 permalink: /legal/
 lang: en
 canonical_en: /legal/
