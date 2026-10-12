@@ -1,6 +1,6 @@
 title: Vellichor
 short_name: Vellichor
-description: PDF Q&A on-device for Apple platforms. Apple Intelligence Foundation Models. Universal on iPhone, iPad, and Mac. Every feature runs on-device — your content never reaches our servers or any cloud AI.
+description: "Vellichor. A PDF reader. Coming to the App Store."
 url: https://vellichor.khassinx.com
 lang: en
 
@@ -19,7 +19,7 @@ og_site_name: Vellichor
 og_image: /assets/og/og-image.png
 og_image_width: 1200
 og_image_height: 630
-og_image_alt: "Vellichor — PDF Q&A on-device for Apple platforms"
+og_image_alt: "Vellichor. A PDF reader. Coming to the App Store."
 twitter_card: summary_large_image
 
 # JSON-LD (SoftwareApplication, publisher KHASSINX). `name` is the brand wordmark;
