@@ -1,6 +1,6 @@
 ---
 layout: prose
-title: Vellichor — Términos de uso
+title: Términos de uso
 permalink: /es/legal/terms/
 lang: es
 canonical_en: /legal/terms/
